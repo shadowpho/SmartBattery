@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 2
+Sheet 2 3
 Title ""
 Date ""
 Rev ""
@@ -1323,7 +1323,7 @@ Connection ~ 8900 1650
 Wire Wire Line
 	8900 1650 8900 1350
 Text GLabel 9600 1650 2    50   Output ~ 0
-PACK_+
+PACK_P
 Connection ~ 9350 1650
 Wire Wire Line
 	9350 1650 9600 1650

@@ -1,0 +1,122 @@
+EESchema Schematic File Version 4
+LIBS:SmartBattery-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 3
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L SmartBattery:bq2477x U?
+U 1 1 5FD99DF0
+P 3150 4100
+F 0 "U?" H 3200 6081 50  0000 C CNN
+F 1 "bq2477x" H 3200 5990 50  0000 C CNN
+F 2 "" H 3150 4100 50  0001 C CNN
+F 3 "" H 3150 4100 50  0001 C CNN
+	1    3150 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:DIODE D?
+U 1 1 5FD9B02C
+P 1500 2050
+F 0 "D?" H 1500 2315 50  0000 C CNN
+F 1 "DIODE" H 1500 2224 50  0000 C CNN
+F 2 "" H 1500 2050 50  0001 C CNN
+F 3 "~" H 1500 2050 50  0001 C CNN
+	1    1500 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5FD9BBFA
+P 1000 2700
+F 0 "C?" H 1092 2746 50  0000 L CNN
+F 1 "C_Small" H 1092 2655 50  0000 L CNN
+F 2 "" H 1000 2700 50  0001 C CNN
+F 3 "~" H 1000 2700 50  0001 C CNN
+	1    1000 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 5FD9C77F
+P 2500 1350
+F 0 "R?" H 2568 1396 50  0000 L CNN
+F 1 "R_Small_US" H 2568 1305 50  0000 L CNN
+F 2 "" H 2500 1350 50  0001 C CNN
+F 3 "~" H 2500 1350 50  0001 C CNN
+	1    2500 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NMOS_GSD Q?
+U 1 1 5FDBB616
+P 4450 1400
+AR Path="/5FD15753/5FDBB616" Ref="Q?"  Part="1" 
+AR Path="/5FD99B08/5FDBB616" Ref="Q?"  Part="1" 
+F 0 "Q?" V 4701 1400 50  0000 C CNN
+F 1 "AO4468" V 4792 1400 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:TDSON-8-1" H 4650 1500 50  0001 C CNN
+F 3 "~" H 4450 1400 50  0001 C CNN
+	1    4450 1400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4150 1800 4150 1500
+Wire Wire Line
+	4150 1500 4250 1500
+Wire Wire Line
+	6050 1500 5450 1500
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5FDBB622
+P 5450 1500
+AR Path="/5FD15753/5FDBB622" Ref="TP?"  Part="1" 
+AR Path="/5FD99B08/5FDBB622" Ref="TP?"  Part="1" 
+F 0 "TP?" H 5500 1700 50  0000 R CNN
+F 1 "TestPoint" H 4900 1550 50  0001 R CNN
+F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 5650 1500 50  0001 C CNN
+F 3 "~" H 5650 1500 50  0001 C CNN
+	1    5450 1500
+	1    0    0    -1  
+$EndComp
+Connection ~ 5450 1500
+Wire Wire Line
+	4450 1200 4850 1200
+Wire Wire Line
+	4650 1500 5450 1500
+$Comp
+L Device:L L?
+U 1 1 5FDBBBEE
+P 5100 2400
+F 0 "L?" V 4919 2400 50  0000 C CNN
+F 1 "L" V 5010 2400 50  0000 C CNN
+F 2 "" H 5100 2400 50  0001 C CNN
+F 3 "~" H 5100 2400 50  0001 C CNN
+	1    5100 2400
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FDBCD6E
+P 3550 5200
+F 0 "#PWR?" H 3550 4950 50  0001 C CNN
+F 1 "GND" H 3555 5027 50  0000 C CNN
+F 2 "" H 3550 5200 50  0001 C CNN
+F 3 "" H 3550 5200 50  0001 C CNN
+	1    3550 5200
+	1    0    0    -1  
+$EndComp
+Text GLabel 8300 2700 2    50   BiDi ~ 0
+PACK_P
+$EndSCHEMATC

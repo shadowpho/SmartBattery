@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 2
+Sheet 2 3
 Title ""
 Date ""
 Rev ""
@@ -36,22 +36,6 @@ F 3 "~" H 1400 5900 50  0001 C CNN
 	1    1400 5900
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector:TestPoint TP8
-U 1 1 5FFFF257
-P 1200 5950
-F 0 "TP8" H 1250 6150 50  0000 R CNN
-F 1 "TestPoint" H 650 6000 50  0001 R CNN
-F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 1400 5950 50  0001 C CNN
-F 3 "~" H 1400 5950 50  0001 C CNN
-	1    1200 5950
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	1200 5950 1200 5900
-Connection ~ 1200 5900
-Wire Wire Line
-	1200 5900 1150 5900
 $Comp
 L Connector:TestPoint TP16
 U 1 1 5FFFF260
@@ -87,30 +71,10 @@ F 3 "~" H 1350 5250 50  0001 C CNN
 	1    1350 5250
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector:TestPoint TP7
-U 1 1 5FFFF273
-P 1200 5300
-F 0 "TP7" H 1250 5500 50  0000 R CNN
-F 1 "TestPoint" H 650 5350 50  0001 R CNN
-F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 1400 5300 50  0001 C CNN
-F 3 "~" H 1400 5300 50  0001 C CNN
-	1    1200 5300
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	1250 5250 1200 5250
-Wire Wire Line
-	1200 5300 1200 5250
-Connection ~ 1200 5250
-Wire Wire Line
-	1200 5250 1150 5250
 Wire Wire Line
 	1150 5150 1600 5150
 Wire Wire Line
 	1700 5800 1700 5500
-Wire Wire Line
-	1300 5900 1200 5900
 $Comp
 L Connector:TestPoint TP12
 U 1 1 5FFFF280
@@ -159,22 +123,6 @@ F 3 "~" H 1400 4550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP6
-U 1 1 5FFFF29A
-P 1200 4600
-F 0 "TP6" H 1250 4800 50  0000 R CNN
-F 1 "TestPoint" H 650 4650 50  0001 R CNN
-F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 1400 4600 50  0001 C CNN
-F 3 "~" H 1400 4600 50  0001 C CNN
-	1    1200 4600
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	1200 4600 1200 4550
-Connection ~ 1200 4550
-Wire Wire Line
-	1200 4550 1150 4550
-$Comp
 L Connector:TestPoint TP15
 U 1 1 5FFFF2A3
 P 1750 4600
@@ -209,28 +157,8 @@ F 3 "~" H 1350 3900 50  0001 C CNN
 	1    1350 3900
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector:TestPoint TP5
-U 1 1 5FFFF2B6
-P 1200 3950
-F 0 "TP5" H 1250 4150 50  0000 R CNN
-F 1 "TestPoint" H 650 4000 50  0001 R CNN
-F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 1400 3950 50  0001 C CNN
-F 3 "~" H 1400 3950 50  0001 C CNN
-	1    1200 3950
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	1250 3900 1200 3900
-Wire Wire Line
-	1200 3950 1200 3900
-Connection ~ 1200 3900
-Wire Wire Line
-	1200 3900 1150 3900
 Wire Wire Line
 	1150 3800 1600 3800
-Wire Wire Line
-	1300 4550 1200 4550
 $Comp
 L Connector:TestPoint TP11
 U 1 1 5FFFF2C2
@@ -279,22 +207,6 @@ F 3 "~" H 1400 3200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP4
-U 1 1 5FFFF2DC
-P 1200 3250
-F 0 "TP4" H 1250 3450 50  0000 R CNN
-F 1 "TestPoint" H 650 3300 50  0001 R CNN
-F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 1400 3250 50  0001 C CNN
-F 3 "~" H 1400 3250 50  0001 C CNN
-	1    1200 3250
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	1200 3250 1200 3200
-Connection ~ 1200 3200
-Wire Wire Line
-	1200 3200 1150 3200
-$Comp
 L Connector:TestPoint TP14
 U 1 1 5FFFF2E5
 P 1750 3250
@@ -329,30 +241,10 @@ F 3 "~" H 1350 2550 50  0001 C CNN
 	1    1350 2550
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector:TestPoint TP3
-U 1 1 5FFFF2F8
-P 1200 2600
-F 0 "TP3" H 1250 2800 50  0000 R CNN
-F 1 "TestPoint" H 650 2650 50  0001 R CNN
-F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 1400 2600 50  0001 C CNN
-F 3 "~" H 1400 2600 50  0001 C CNN
-	1    1200 2600
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	1250 2550 1200 2550
-Wire Wire Line
-	1200 2600 1200 2550
-Connection ~ 1200 2550
-Wire Wire Line
-	1200 2550 1150 2550
 Wire Wire Line
 	1150 2450 1600 2450
 Wire Wire Line
 	1700 3100 1700 2750
-Wire Wire Line
-	1300 3200 1200 3200
 $Comp
 L Connector:TestPoint TP10
 U 1 1 5FFFF305
@@ -399,22 +291,6 @@ F 3 "~" H 1400 1850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP2
-U 1 1 5FFFF31E
-P 1200 1900
-F 0 "TP2" H 1250 2100 50  0000 R CNN
-F 1 "TestPoint" H 650 1950 50  0001 R CNN
-F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 1400 1900 50  0001 C CNN
-F 3 "~" H 1400 1900 50  0001 C CNN
-	1    1200 1900
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	1200 1900 1200 1850
-Connection ~ 1200 1850
-Wire Wire Line
-	1200 1850 1150 1850
-$Comp
 L Connector:TestPoint TP13
 U 1 1 5FFFF327
 P 1750 1900
@@ -449,30 +325,10 @@ F 3 "~" H 1350 1200 50  0001 C CNN
 	1    1350 1200
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector:TestPoint TP1
-U 1 1 5FFFF33A
-P 1200 1250
-F 0 "TP1" H 1250 1450 50  0000 R CNN
-F 1 "TestPoint" H 650 1300 50  0001 R CNN
-F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 1400 1250 50  0001 C CNN
-F 3 "~" H 1400 1250 50  0001 C CNN
-	1    1200 1250
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	1250 1200 1200 1200
-Wire Wire Line
-	1200 1250 1200 1200
-Connection ~ 1200 1200
-Wire Wire Line
-	1200 1200 1150 1200
 Wire Wire Line
 	1150 1100 1600 1100
 Wire Wire Line
 	1700 1750 1700 1400
-Wire Wire Line
-	1300 1850 1200 1850
 $Comp
 L Connector:TestPoint TP9
 U 1 1 5FFFF347
@@ -1467,7 +1323,7 @@ Connection ~ 8900 1650
 Wire Wire Line
 	8900 1650 8900 1350
 Text GLabel 9600 1650 2    50   Output ~ 0
-PACK_+
+PACK_P
 Connection ~ 9350 1650
 Wire Wire Line
 	9350 1650 9600 1650
@@ -2189,4 +2045,20 @@ $EndComp
 Connection ~ 8800 4500
 Wire Wire Line
 	8800 4500 8750 4500
+Wire Wire Line
+	1150 5900 1300 5900
+Wire Wire Line
+	1150 5250 1250 5250
+Wire Wire Line
+	1150 4550 1300 4550
+Wire Wire Line
+	1150 3900 1250 3900
+Wire Wire Line
+	1150 3200 1300 3200
+Wire Wire Line
+	1150 2550 1250 2550
+Wire Wire Line
+	1150 1850 1300 1850
+Wire Wire Line
+	1150 1200 1250 1200
 $EndSCHEMATC

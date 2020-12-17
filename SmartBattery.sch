@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 2
+Sheet 1 3
 Title ""
 Date ""
 Rev ""
@@ -52,5 +52,11 @@ S 15600 -1300 2700 2300
 U 5FD15753
 F0 "Battery connection and protection" 50
 F1 "Battery_Protection.sch" 50
+$EndSheet
+$Sheet
+S 15550 2300 2450 1850
+U 5FD99B08
+F0 "Charger" 50
+F1 "Charger.sch" 50
 $EndSheet
 $EndSCHEMATC
