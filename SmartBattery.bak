@@ -48,15 +48,20 @@ F 3 "~" V 9750 5725 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Sheet
-S 15600 -1300 2700 2300
-U 5FD15753
-F0 "Battery connection and protection" 50
-F1 "Battery_Protection.sch" 50
-$EndSheet
-$Sheet
-S 15550 2300 2450 1850
+S 3000 4750 2450 1850
 U 5FD99B08
 F0 "Charger" 50
 F1 "Charger.sch" 50
+$EndSheet
+$Sheet
+S 2100 2750 1600 950 
+U 5FD15753
+F0 "Battery connection and protection" 50
+F1 "Battery_Protection.sch" 50
+F2 "BATT_PACK_P" B R 3700 2900 50 
+F3 "BATT_SMB_D" B R 3700 3150 50 
+F4 "BATT_SMB_C" B R 3700 3250 50 
+F5 "BATT_SHUTDOWN_N" B R 3700 3600 50 
+F6 "BATT_INT" B R 3700 3350 50 
 $EndSheet
 $EndSCHEMATC
