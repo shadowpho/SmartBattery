@@ -4075,7 +4075,7 @@
   )
 
   (module Connector_RJ:RJ45_Amphenol_RJHSE538X (layer F.Cu) (tedit 5AD3662E) (tstamp 5FD9B678)
-    (at 138.2268 118.8172 270)
+    (at 119.4816 114.3468 270)
     (descr "Shielded, 2 LED, https://www.amphenolcanada.com/ProductSearch/drawings/AC/RJHSE538X.pdf")
     (tags "RJ45 8p8c ethernet cat5")
     (path /5FD1798F)
@@ -4144,7 +4144,7 @@
   )
 
   (module Connector_USB:USB3_A_Plug_Wuerth_692112030100_Horizontal (layer F.Cu) (tedit 5A588E4B) (tstamp 5FD9B651)
-    (at 132.4864 101.2444)
+    (at 113.7412 96.774)
     (descr "USB type A Plug, Horizontal, http://katalog.we-online.de/em/datasheet/692112030100.pdf")
     (tags "usb A plug horizontal")
     (path /5FD1640D)
@@ -4211,7 +4211,7 @@
   )
 
   (module Connector_USB:USB_C_Receptacle_Amphenol_12401548E4-2A (layer F.Cu) (tedit 5A142044) (tstamp 5FD9B626)
-    (at 136.9076 85.6172 90)
+    (at 118.1624 81.1468 90)
     (descr "USB TYPE C, RA RCPT PCB, Hybrid, https://www.amphenolcanada.com/StockAvailabilityPrice.aspx?From=&PartNum=12401548E4%7e2A")
     (tags "USB C Type-C Receptacle Hybrid")
     (path /5FD13F83)
