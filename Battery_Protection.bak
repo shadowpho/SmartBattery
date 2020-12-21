@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 3
+Sheet 3 5
 Title ""
 Date ""
 Rev ""
@@ -14,17 +14,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L Connector_Generic:Conn_01x02 J11
-U 1 1 5FFFF24B
-P 950 5900
-F 0 "J11" H 868 5575 50  0000 C CNN
-F 1 "Conn_01x02" H 868 5666 50  0000 C CNN
-F 2 "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal" H 950 5900 50  0001 C CNN
-F 3 "~" H 950 5900 50  0001 C CNN
-	1    950  5900
-	-1   0    0    1   
-$EndComp
 $Comp
 L Device:Fuse_Small F8
 U 1 1 5FFFF251
@@ -49,17 +38,6 @@ F 3 "~" H 1950 5950 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1150 5800 1700 5800
-$Comp
-L Connector_Generic:Conn_01x02 J10
-U 1 1 5FFFF267
-P 950 5250
-F 0 "J10" H 868 4925 50  0000 C CNN
-F 1 "Conn_01x02" H 868 5016 50  0000 C CNN
-F 2 "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal" H 950 5250 50  0001 C CNN
-F 3 "~" H 950 5250 50  0001 C CNN
-	1    950  5250
-	-1   0    0    1   
-$EndComp
 $Comp
 L Device:Fuse_Small F4
 U 1 1 5FFFF26D
@@ -101,17 +79,6 @@ Wire Wire Line
 Wire Wire Line
 	1800 5250 1800 5350
 $Comp
-L Connector_Generic:Conn_01x02 J9
-U 1 1 5FFFF28E
-P 950 4550
-F 0 "J9" H 868 4225 50  0000 C CNN
-F 1 "Conn_01x02" H 868 4316 50  0000 C CNN
-F 2 "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal" H 950 4550 50  0001 C CNN
-F 3 "~" H 950 4550 50  0001 C CNN
-	1    950  4550
-	-1   0    0    1   
-$EndComp
-$Comp
 L Device:Fuse_Small F7
 U 1 1 5FFFF294
 P 1400 4550
@@ -135,17 +102,6 @@ F 3 "~" H 1950 4600 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1150 4450 1700 4450
-$Comp
-L Connector_Generic:Conn_01x02 J8
-U 1 1 5FFFF2AA
-P 950 3900
-F 0 "J8" H 868 3575 50  0000 C CNN
-F 1 "Conn_01x02" H 868 3666 50  0000 C CNN
-F 2 "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal" H 950 3900 50  0001 C CNN
-F 3 "~" H 950 3900 50  0001 C CNN
-	1    950  3900
-	-1   0    0    1   
-$EndComp
 $Comp
 L Device:Fuse_Small F3
 U 1 1 5FFFF2B0
@@ -185,17 +141,6 @@ Wire Wire Line
 Wire Wire Line
 	1800 3900 1800 3950
 $Comp
-L Connector_Generic:Conn_01x02 J7
-U 1 1 5FFFF2D0
-P 950 3200
-F 0 "J7" H 868 2875 50  0000 C CNN
-F 1 "Conn_01x02" H 868 2966 50  0000 C CNN
-F 2 "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal" H 950 3200 50  0001 C CNN
-F 3 "~" H 950 3200 50  0001 C CNN
-	1    950  3200
-	-1   0    0    1   
-$EndComp
-$Comp
 L Device:Fuse_Small F6
 U 1 1 5FFFF2D6
 P 1400 3200
@@ -219,17 +164,6 @@ F 3 "~" H 1950 3250 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1150 3100 1700 3100
-$Comp
-L Connector_Generic:Conn_01x02 J6
-U 1 1 5FFFF2EC
-P 950 2550
-F 0 "J6" H 868 2225 50  0000 C CNN
-F 1 "Conn_01x02" H 868 2316 50  0000 C CNN
-F 2 "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal" H 950 2550 50  0001 C CNN
-F 3 "~" H 950 2550 50  0001 C CNN
-	1    950  2550
-	-1   0    0    1   
-$EndComp
 $Comp
 L Device:Fuse_Small F2
 U 1 1 5FFFF2F2
@@ -269,17 +203,6 @@ Wire Wire Line
 Wire Wire Line
 	1450 2550 1800 2550
 $Comp
-L Connector_Generic:Conn_01x02 J5
-U 1 1 5FFFF312
-P 950 1850
-F 0 "J5" H 868 1525 50  0000 C CNN
-F 1 "Conn_01x02" H 868 1616 50  0000 C CNN
-F 2 "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal" H 950 1850 50  0001 C CNN
-F 3 "~" H 950 1850 50  0001 C CNN
-	1    950  1850
-	-1   0    0    1   
-$EndComp
-$Comp
 L Device:Fuse_Small F5
 U 1 1 5FFFF318
 P 1400 1850
@@ -303,17 +226,6 @@ F 3 "~" H 1950 1900 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1150 1750 1700 1750
-$Comp
-L Connector_Generic:Conn_01x02 J4
-U 1 1 5FFFF32E
-P 950 1200
-F 0 "J4" H 868 875 50  0000 C CNN
-F 1 "Conn_01x02" H 868 966 50  0000 C CNN
-F 2 "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal" H 950 1200 50  0001 C CNN
-F 3 "~" H 950 1200 50  0001 C CNN
-	1    950  1200
-	-1   0    0    1   
-$EndComp
 $Comp
 L Device:Fuse_Small F1
 U 1 1 5FFFF334
@@ -1083,50 +995,6 @@ Wire Wire Line
 Wire Wire Line
 	7950 5550 7950 5750
 Connection ~ 7950 5750
-$Comp
-L Device:Q_NMOS_GSD Q4
-U 1 1 5FFFF4EE
-P 6800 1950
-F 0 "Q4" V 7051 1950 50  0000 C CNN
-F 1 "AO4468" V 7142 1950 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:TDSON-8-1" H 7000 2050 50  0001 C CNN
-F 3 "~" H 6800 1950 50  0001 C CNN
-	1    6800 1950
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:Q_NMOS_GSD Q3
-U 1 1 5FFFF4F4
-P 6800 1250
-F 0 "Q3" V 7051 1250 50  0000 C CNN
-F 1 "AO4468" V 7142 1250 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:TDSON-8-1" H 7000 1350 50  0001 C CNN
-F 3 "~" H 6800 1250 50  0001 C CNN
-	1    6800 1250
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:Q_NMOS_GSD Q6
-U 1 1 5FFFF4FA
-P 8600 2150
-F 0 "Q6" V 8943 2150 50  0000 C CNN
-F 1 "AO4468" V 8852 2150 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:TDSON-8-1" H 8800 2250 50  0001 C CNN
-F 3 "~" H 8600 2150 50  0001 C CNN
-	1    8600 2150
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:Q_NMOS_GSD Q5
-U 1 1 5FFFF500
-P 8600 1450
-F 0 "Q5" V 8943 1450 50  0000 C CNN
-F 1 "AO4468" V 8852 1450 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:TDSON-8-1" H 8800 1550 50  0001 C CNN
-F 3 "~" H 8600 1450 50  0001 C CNN
-	1    8600 1450
-	0    -1   -1   0   
-$EndComp
 Text GLabel 5200 1550 0    50   Input ~ 0
 BAT_VP_3
 Wire Wire Line
@@ -2058,4 +1926,202 @@ Text HLabel 9650 4700 2    50   BiDi ~ 0
 BATT_SHUTDOWN_N
 Text HLabel 8850 4500 2    50   BiDi ~ 0
 BATT_INT
+$Comp
+L Connector_Generic_MountingPin:Conn_01x02_MountingPin J4
+U 1 1 60150372
+P 950 5800
+F 0 "J4" H 872 6017 50  0000 C CNN
+F 1 "JST 2P-1.0" H 872 5926 50  0000 C CNN
+F 2 "Connector_JST:JST_SH_SM02B-SRSS-TB_1x02-1MP_P1.00mm_Horizontal" H 950 5800 50  0001 C CNN
+F 3 "~" H 950 5800 50  0001 C CNN
+	1    950  5800
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GNDA #PWR0123
+U 1 1 60195338
+P 950 6100
+F 0 "#PWR0123" H 950 5850 50  0001 C CNN
+F 1 "GNDA" H 1050 6100 50  0000 C CNN
+F 2 "" H 950 6100 50  0001 C CNN
+F 3 "" H 950 6100 50  0001 C CNN
+	1    950  6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic_MountingPin:Conn_01x02_MountingPin J5
+U 1 1 601B36A3
+P 950 5150
+F 0 "J5" H 872 5367 50  0000 C CNN
+F 1 "JST 2P-1.0" H 872 5276 50  0000 C CNN
+F 2 "Connector_JST:JST_SH_SM02B-SRSS-TB_1x02-1MP_P1.00mm_Horizontal" H 950 5150 50  0001 C CNN
+F 3 "~" H 950 5150 50  0001 C CNN
+	1    950  5150
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GNDA #PWR0137
+U 1 1 601B36A9
+P 950 5450
+F 0 "#PWR0137" H 950 5200 50  0001 C CNN
+F 1 "GNDA" H 1050 5450 50  0000 C CNN
+F 2 "" H 950 5450 50  0001 C CNN
+F 3 "" H 950 5450 50  0001 C CNN
+	1    950  5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic_MountingPin:Conn_01x02_MountingPin J7
+U 1 1 601C99C7
+P 950 3800
+F 0 "J7" H 872 4017 50  0000 C CNN
+F 1 "JST 2P-1.0" H 872 3926 50  0000 C CNN
+F 2 "Connector_JST:JST_SH_SM02B-SRSS-TB_1x02-1MP_P1.00mm_Horizontal" H 950 3800 50  0001 C CNN
+F 3 "~" H 950 3800 50  0001 C CNN
+	1    950  3800
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GNDA #PWR0138
+U 1 1 601C99CD
+P 950 4100
+F 0 "#PWR0138" H 950 3850 50  0001 C CNN
+F 1 "GNDA" H 1050 4100 50  0000 C CNN
+F 2 "" H 950 4100 50  0001 C CNN
+F 3 "" H 950 4100 50  0001 C CNN
+	1    950  4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic_MountingPin:Conn_01x02_MountingPin J6
+U 1 1 601DFF75
+P 950 4450
+F 0 "J6" H 872 4667 50  0000 C CNN
+F 1 "JST 2P-1.0" H 872 4576 50  0000 C CNN
+F 2 "Connector_JST:JST_SH_SM02B-SRSS-TB_1x02-1MP_P1.00mm_Horizontal" H 950 4450 50  0001 C CNN
+F 3 "~" H 950 4450 50  0001 C CNN
+	1    950  4450
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GNDA #PWR0139
+U 1 1 601DFF7B
+P 950 4750
+F 0 "#PWR0139" H 950 4500 50  0001 C CNN
+F 1 "GNDA" H 1050 4750 50  0000 C CNN
+F 2 "" H 950 4750 50  0001 C CNN
+F 3 "" H 950 4750 50  0001 C CNN
+	1    950  4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic_MountingPin:Conn_01x02_MountingPin J9
+U 1 1 601F66D1
+P 950 2450
+F 0 "J9" H 872 2667 50  0000 C CNN
+F 1 "JST 2P-1.0" H 872 2576 50  0000 C CNN
+F 2 "Connector_JST:JST_SH_SM02B-SRSS-TB_1x02-1MP_P1.00mm_Horizontal" H 950 2450 50  0001 C CNN
+F 3 "~" H 950 2450 50  0001 C CNN
+	1    950  2450
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GNDA #PWR0140
+U 1 1 601F66D7
+P 950 2750
+F 0 "#PWR0140" H 950 2500 50  0001 C CNN
+F 1 "GNDA" H 1050 2750 50  0000 C CNN
+F 2 "" H 950 2750 50  0001 C CNN
+F 3 "" H 950 2750 50  0001 C CNN
+	1    950  2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic_MountingPin:Conn_01x02_MountingPin J8
+U 1 1 6020C81D
+P 950 3100
+F 0 "J8" H 872 3317 50  0000 C CNN
+F 1 "JST 2P-1.0" H 872 3226 50  0000 C CNN
+F 2 "Connector_JST:JST_SH_SM02B-SRSS-TB_1x02-1MP_P1.00mm_Horizontal" H 950 3100 50  0001 C CNN
+F 3 "~" H 950 3100 50  0001 C CNN
+	1    950  3100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GNDA #PWR0141
+U 1 1 6020C823
+P 950 3400
+F 0 "#PWR0141" H 950 3150 50  0001 C CNN
+F 1 "GNDA" H 1050 3400 50  0000 C CNN
+F 2 "" H 950 3400 50  0001 C CNN
+F 3 "" H 950 3400 50  0001 C CNN
+	1    950  3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic_MountingPin:Conn_01x02_MountingPin J11
+U 1 1 60222CAB
+P 950 1100
+F 0 "J11" H 872 1317 50  0000 C CNN
+F 1 "JST 2P-1.0" H 872 1226 50  0000 C CNN
+F 2 "Connector_JST:JST_SH_SM02B-SRSS-TB_1x02-1MP_P1.00mm_Horizontal" H 950 1100 50  0001 C CNN
+F 3 "~" H 950 1100 50  0001 C CNN
+	1    950  1100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GNDA #PWR0142
+U 1 1 60222CB1
+P 950 1400
+F 0 "#PWR0142" H 950 1150 50  0001 C CNN
+F 1 "GNDA" H 1050 1400 50  0000 C CNN
+F 2 "" H 950 1400 50  0001 C CNN
+F 3 "" H 950 1400 50  0001 C CNN
+	1    950  1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic_MountingPin:Conn_01x02_MountingPin J10
+U 1 1 6023929F
+P 950 1750
+F 0 "J10" H 872 1967 50  0000 C CNN
+F 1 "JST 2P-1.0" H 872 1876 50  0000 C CNN
+F 2 "Connector_JST:JST_SH_SM02B-SRSS-TB_1x02-1MP_P1.00mm_Horizontal" H 950 1750 50  0001 C CNN
+F 3 "~" H 950 1750 50  0001 C CNN
+	1    950  1750
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GNDA #PWR0143
+U 1 1 602392A5
+P 950 2050
+F 0 "#PWR0143" H 950 1800 50  0001 C CNN
+F 1 "GNDA" H 1050 2050 50  0000 C CNN
+F 2 "" H 950 2050 50  0001 C CNN
+F 3 "" H 950 2050 50  0001 C CNN
+	1    950  2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L SmartBattery:AO4468 Q4
+U 1 1 60326882
+P 6800 1950
+F 0 "Q4" V 7051 1950 50  0000 C CNN
+F 1 "AO4468" V 7142 1950 50  0000 C CNN
+F 2 "SmartBattery:SOIC-8_Alpha_Omega" H 7000 2050 50  0001 C CNN
+F 3 "~" H 6800 1950 50  0001 C CNN
+	1    6800 1950
+	0    1    1    0   
+$EndComp
+$Comp
+L SmartBattery:AO4468 Q6
+U 1 1 60353110
+P 8600 2150
+F 0 "Q6" V 8943 2150 50  0000 C CNN
+F 1 "AO4468" V 8852 2150 50  0000 C CNN
+F 2 "SmartBattery:SOIC-8_Alpha_Omega" H 8800 2250 50  0001 C CNN
+F 3 "~" H 8600 2150 50  0001 C CNN
+	1    8600 2150
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC
