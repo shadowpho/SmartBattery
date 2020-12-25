@@ -15,25 +15,15 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector:USB_C_Receptacle_USB2.0 J1
-U 1 1 5FD13F83
-P 1300 1800
-F 0 "J1" H 1407 2667 50  0000 C CNN
-F 1 "USB_C_Receptacle_USB2.0" H 1407 2576 50  0000 C CNN
-F 2 "Connector_USB:USB_C_Receptacle_Amphenol_12401548E4-2A" H 1450 1800 50  0001 C CNN
-F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 1450 1800 50  0001 C CNN
-	1    1300 1800
-	1    0    0    -1  
-$EndComp
-$Comp
 L Connector:USB_B J2
 U 1 1 5FD1640D
-P 9750 1650
-F 0 "J2" H 9807 2117 50  0000 C CNN
-F 1 "ST-USB-003A" H 9807 2026 50  0000 C CNN
-F 2 "Connector_USB:USB3_A_Plug_Wuerth_692112030100_Horizontal" H 9900 1600 50  0001 C CNN
-F 3 " ~" H 9900 1600 50  0001 C CNN
-	1    9750 1650
+P 7900 1250
+F 0 "J2" H 7957 1717 50  0000 C CNN
+F 1 "ST-USB-003A" H 7957 1626 50  0000 C CNN
+F 2 "Connector_USB:USB3_A_Plug_Wuerth_692112030100_Horizontal" H 8050 1200 50  0001 C CNN
+F 3 " ~" H 8050 1200 50  0001 C CNN
+F 4 "320010007" H 7900 1250 50  0001 C CNN "SKU"
+	1    7900 1250
 	1    0    0    -1  
 $EndComp
 $Sheet
@@ -73,6 +63,7 @@ F 0 "J3" H 3357 5017 50  0000 C CNN
 F 1 "Barrel_Jack_MountingPin" H 3357 4926 50  0000 C CNN
 F 2 "Connector_BarrelJack:BarrelJack_Horizontal" H 3350 4660 50  0001 C CNN
 F 3 "~" H 3350 4660 50  0001 C CNN
+F 4 "320120003" H 3300 4700 50  0001 C CNN "SKU"
 	1    3300 4700
 	1    0    0    -1  
 $EndComp
@@ -88,4 +79,47 @@ U 6041786F
 F0 "Peripheral_3p3v" 50
 F1 "Peripheral_3p3v.sch" 50
 $EndSheet
+$Comp
+L RF_Module:ESP32-WROOM-32U U6
+U 1 1 5FE15F32
+P 8100 4000
+F 0 "U6" H 8100 5581 50  0000 C CNN
+F 1 "ESP32-WROOM-32U" H 8100 5490 50  0000 C CNN
+F 2 "RF_Module:ESP32-WROOM-32U" H 8100 2500 50  0001 C CNN
+F 3 "https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32d_esp32-wroom-32u_datasheet_en.pdf" H 7800 4050 50  0001 C CNN
+F 4 "ESP32-WROOM-32U" H 8100 4000 50  0001 C CNN "SKU"
+	1    8100 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L SmartBattery:ATSAMD21G18A-MU U7
+U 1 1 5FE17BB1
+P 9750 4350
+F 0 "U7" H 9750 6617 50  0000 C CNN
+F 1 "ATSAMD21G18A-MU" H 9750 6526 50  0000 C CNN
+F 2 "SmartBattery:QFN50P700X700X90-49N" H 9750 4350 50  0001 L BNN
+F 3 "" H 9750 4350 50  0001 L BNN
+F 4 "ATSAMD21G18A-MU" H 9750 4350 50  0001 L BNN "MP"
+F 5 "QFN-48 Microchip" H 9750 4350 50  0001 L BNN "PACKAGE"
+F 6 "Good" H 9750 4350 50  0001 L BNN "AVAILABILITY"
+F 7 "IPC-7351B" H 9750 4350 50  0001 L BNN "STANDARD"
+F 8 "2.99 USD" H 9750 4350 50  0001 L BNN "PRICE"
+F 9 "Cortex-M0+, 256KB FLASH, 32KB SRAM, USB, DMA, T&R - 48QFN IND TEMP, GREEN, 1.6-3.6V, 48MHz/ QFN _ZA_" H 9750 4350 50  0001 L BNN "DESCRIPTION"
+F 10 "Microchip" H 9750 4350 50  0001 L BNN "MF"
+F 11 "310010095" H 9750 4350 50  0001 C CNN "SKU"
+	1    9750 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:USB_C_Receptacle_USB2.0 J1
+U 1 1 5FD13F83
+P 1300 1800
+F 0 "J1" H 1407 2667 50  0000 C CNN
+F 1 "USB_C_Receptacle_USB2.0" H 1407 2576 50  0000 C CNN
+F 2 "Connector_USB:USB_C_Receptacle_Amphenol_12401548E4-2A" H 1450 1800 50  0001 C CNN
+F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 1450 1800 50  0001 C CNN
+F 4 "TYPE-C-31-M-17" H 1300 1800 50  0001 C CNN "SKU"
+	1    1300 1800
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

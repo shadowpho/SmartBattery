@@ -1,4 +1,4 @@
-15976390131938604
+15979607338671463
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -65611,6 +65611,13 @@ QFN40P400X400X80-29N
 29
 29
 SmartBattery
+QFN50P700X700X90-49N
+
+
+0
+49
+49
+SmartBattery
 SOIC-8_Alpha_Omega
 
 
@@ -65624,6 +65631,13 @@ SOIC127P600X175-8N
 0
 8
 8
+SmartBattery
+SOT95P280X110-6N
+
+
+0
+6
+6
 Socket
 3M_Textool_240-1288-00-0602J_2x20_P2.54mm
 3M 40-pin zero insertion force socket, though-hole, row spacing 25.4 mm (1000 mils)
