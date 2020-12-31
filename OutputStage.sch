@@ -92,4 +92,8 @@ Wire Wire Line
 	7100 3900 6050 3900
 Wire Wire Line
 	5200 3900 5750 3900
+Text HLabel 1400 1450 0    50   Input ~ 0
+VSYS
+Text HLabel 5150 1550 0    50   Output ~ 0
+OUTPUT_VOLTAGE
 $EndSCHEMATC

@@ -5,4 +5,8 @@ D NMOS SOIC-8 30v20mO 10.5A
 F ~
 $ENDCMP
 #
+$CMP BQ25703ARSNR
+D 1-4 cell buck-boost
+$ENDCMP
+#
 #End Doc Library
