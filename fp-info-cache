@@ -1,4 +1,4 @@
-16883933828719468
+16885543572055879
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -69558,6 +69558,13 @@ SOIC127P600X175-8N
 0
 8
 8
+SmartBattery
+SOP65P490X110-9N
+
+
+0
+9
+9
 SmartBattery
 SOT95P280X110-6N
 

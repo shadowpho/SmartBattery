@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 6
+Sheet 6 8
 Title ""
 Date ""
 Rev ""
@@ -265,19 +265,6 @@ Wire Wire Line
 Connection ~ 4950 5800
 $Comp
 L Device:C C?
-U 1 1 5FFA2A57
-P 1300 7050
-AR Path="/5FD15753/5FFA2A57" Ref="C?"  Part="1" 
-AR Path="/5FF1D194/5FFA2A57" Ref="C40"  Part="1" 
-F 0 "C40" H 1300 7150 50  0000 L CNN
-F 1 "0.1u 6.3v" V 1200 6900 50  0000 L CNN
-F 2 "lc_lib:0402_C" H 1338 6900 50  0001 C CNN
-F 3 "~" H 1300 7050 50  0001 C CNN
-	1    1300 7050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C?
 U 1 1 5FFC1EEB
 P 5200 2250
 AR Path="/5FD15753/5FFC1EEB" Ref="C?"  Part="1" 
@@ -368,32 +355,6 @@ F 3 "~" H 1800 7050 50  0001 C CNN
 $EndComp
 $Comp
 L Device:C C?
-U 1 1 5FFCB597
-P 2000 7050
-AR Path="/5FD15753/5FFCB597" Ref="C?"  Part="1" 
-AR Path="/5FF1D194/5FFCB597" Ref="C55"  Part="1" 
-F 0 "C55" H 2000 7150 50  0000 L CNN
-F 1 "0.1u 6.3v" V 1900 6900 50  0000 L CNN
-F 2 "lc_lib:0402_C" H 2038 6900 50  0001 C CNN
-F 3 "~" H 2000 7050 50  0001 C CNN
-	1    2000 7050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 5FFCB87A
-P 2250 7050
-AR Path="/5FD15753/5FFCB87A" Ref="C?"  Part="1" 
-AR Path="/5FF1D194/5FFCB87A" Ref="C56"  Part="1" 
-F 0 "C56" H 2250 7150 50  0000 L CNN
-F 1 "0.1u 6.3v" V 2150 6900 50  0000 L CNN
-F 2 "lc_lib:0402_C" H 2288 6900 50  0001 C CNN
-F 3 "~" H 2250 7050 50  0001 C CNN
-	1    2250 7050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C?
 U 1 1 5FFCBCB0
 P 2500 7050
 AR Path="/5FD15753/5FFCBCB0" Ref="C?"  Part="1" 
@@ -442,32 +403,6 @@ F 1 "0.1u 6.3v" V 3150 6900 50  0000 L CNN
 F 2 "lc_lib:0402_C" H 3288 6900 50  0001 C CNN
 F 3 "~" H 3250 7050 50  0001 C CNN
 	1    3250 7050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 5FFCC99C
-P 3500 7050
-AR Path="/5FD15753/5FFCC99C" Ref="C?"  Part="1" 
-AR Path="/5FF1D194/5FFCC99C" Ref="C63"  Part="1" 
-F 0 "C63" H 3500 7150 50  0000 L CNN
-F 1 "0.1u 6.3v" V 3400 6900 50  0000 L CNN
-F 2 "lc_lib:0402_C" H 3538 6900 50  0001 C CNN
-F 3 "~" H 3500 7050 50  0001 C CNN
-	1    3500 7050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 5FFCCCFF
-P 3750 7050
-AR Path="/5FD15753/5FFCCCFF" Ref="C?"  Part="1" 
-AR Path="/5FF1D194/5FFCCCFF" Ref="C64"  Part="1" 
-F 0 "C64" H 3750 7150 50  0000 L CNN
-F 1 "0.1u 6.3v" V 3650 6900 50  0000 L CNN
-F 2 "lc_lib:0402_C" H 3788 6900 50  0001 C CNN
-F 3 "~" H 3750 7050 50  0001 C CNN
-	1    3750 7050
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
