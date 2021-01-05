@@ -1,276 +1,114 @@
-"Source:","C:\Users\aaa bbb\Documents\KiCadProj\SmartBattery\SmartBattery.sch"
-"Date:","12/29/2020 11:23:34 PM"
-"Tool:","Eeschema (5.1.2)-1"
-"Generator:","F:\Program Files\KiCad\bin\scripting\plugins/bom_csv_grouped_by_value.py"
-"Component Count:","185"
 
-"Individual Components:"
-
-"Item","Qty","Reference(s)","Value","LibPart","Footprint","Datasheet","MANUFACTURER","MAXIMUM_PACKAGE_HEIGHT","PARTREV","SKU","SNAPEDA_PACKAGE_ID","STANDARD","sku"
-"","","C1","1uF","Device:C_Small","lc_lib:0402_C","~","","","","","","",""
-"","","C2","10u","Device:C_Small","lc_lib:0805_C","~","","","","","","",""
-"","","C3","0.1u 25v","Device:C_Small","lc_lib:0402_C","~","","","","","","",""
-"","","C4","22u","Device:C_Small","lc_lib:0805_C","~","","","","CL21A226MAQNNNE","","",""
-"","","C5","0.1u","Device:C_Small","lc_lib:0402_C","~","","","","","","",""
-"","","C6","0.1u 25v","Device:C_Small","lc_lib:0402_C","~","","","","","","",""
-"","","C7","22u","Device:C_Small","lc_lib:0805_C","~","","","","CL21A226MAQNNNE","","",""
-"","","C8","10u","Device:C_Small","lc_lib:0805_C","~","","","","CC0805KKX5R8BB106","","",""
-"","","C9","22u","Device:C_Small","lc_lib:0805_C","~","","","","CL21A226MAQNNNE","","",""
-"","","C10","10u","Device:C_Small","lc_lib:0805_C","~","","","","CC0805KKX5R8BB106","","",""
-"","","C11","10u","Device:C_Small","lc_lib:0805_C","~","","","","CC0805KKX5R8BB106","","",""
-"","","C12","22u","Device:C_Small","lc_lib:0805_C","~","","","","CL21A226MAQNNNE","","",""
-"","","C13","22u","Device:C_Small","lc_lib:0805_C","~","","","","CL21A226MAQNNNE","","",""
-"","","C14","22u","Device:C_Small","lc_lib:0805_C","~","","","","CL21A226MAQNNNE","","",""
-"","","C15","22u","Device:C_Small","lc_lib:0805_C","~","","","","CL21A226MAQNNNE","","",""
-"","","C16","220u","Device:C_Small","Capacitor_SMD:C_Elec_8x10.2","~","","","","RVT1V221M0810","","",""
-"","","C17","220u","Device:C_Small","Capacitor_SMD:C_Elec_8x10.2","~","","","","RVT1V221M0810","","",""
-"","","C18","0.1u 6.3v","Device:C","lc_lib:0402_C","~","","","","","","",""
-"","","C19","0.1u 6.3v","Device:C","lc_lib:0402_C","~","","","","","","",""
-"","","C20","0.1u 6.3v","Device:C","lc_lib:0402_C","~","","","","","","",""
-"","","C21","0.1u 6.3v","Device:C","lc_lib:0402_C","~","","","","","","",""
-"","","C22","0.1uF 25v","Device:C","lc_lib:0402_C","~","","","","","","",""
-"","","C23","0.1u 6.3v","Device:C","lc_lib:0402_C","~","","","","","","",""
-"","","C24","0.1u 6.3v","Device:C","lc_lib:0402_C","~","","","","","","",""
-"","","C25","0.1u 6.3v","Device:C","lc_lib:0402_C","~","","","","","","",""
-"","","C26","0.1u 6.3v","Device:C","lc_lib:0402_C","~","","","","","","",""
-"","","C27","0.1u 20v","Device:C","lc_lib:0402_C","~","","","","","","",""
-"","","C28","0.1u 20v","Device:C","lc_lib:0402_C","~","","","","","","",""
-"","","C29","2.2u 50v","Device:C","lc_lib:0805_C","~","","","","","","",""
-"","","C30","0.1u 50v","Device:C","lc_lib:0402_C","~","","","","","","",""
-"","","C31","0.1uF","Device:C","lc_lib:0402_C","~","","","","","","",""
-"","","C32","0.1u 6.3v","Device:C","lc_lib:0402_C","~","","","","","","",""
-"","","C33","0.1u 50v","Device:C","lc_lib:0402_C","~","","","","","","",""
-"","","C34","1uF 16v","Device:C_Small","lc_lib:0402_C","~","","","","","","",""
-"","","C35","1uF 16v","Device:C_Small","lc_lib:0402_C","~","","","","","","",""
-"","","C36","2.2u 6.3v","Device:C","lc_lib:0805_C","~","","","","","","",""
-"","","C37","1uF 25v","Device:C_Small","lc_lib:0402_C","~","","","","","","",""
-"","","C38","0.1uF 25v","Device:C_Small","lc_lib:0402_C","~","","","","","","",""
-"","","C39","0.1uF","Device:C_Small","lc_lib:0402_C","~","","","","","","",""
-"","","C40","0.1u 6.3v","Device:C","lc_lib:0402_C","~","","","","","","",""
-"","","C41","0.1uF 25v","Device:C_Small","lc_lib:0402_C","~","","","","","","",""
-"","","C42","0.01uF","Device:C_Small","lc_lib:0402_C","~","","","","","","",""
-"","","C43","1uF 25v","Device:C_Small","lc_lib:0402_C","~","","","","","","",""
-"","","C44","22u","Device:C_Small","lc_lib:0805_C","~","","","","CL21A226MAQNNNE","","",""
-"","","C45","2.2uF 25v","Device:C_Small","lc_lib:0805_C","~","","","","","","",""
-"","","C46","2200pF","Device:C_Small","lc_lib:0402_C","~","","","","","","",""
-"","","C47","0.1uF","Device:C_Small","lc_lib:0402_C","~","","","","","","",""
-"","","C48","1uF 25v","Device:C_Small","lc_lib:0402_C","~","","","","CC0805KKX5R8BB106","","",""
-"","","C49","10u","Device:C_Small","lc_lib:0805_C","~","","","","CC0805KKX5R8BB106","","",""
-"","","C50","10u","Device:C_Small","lc_lib:0805_C","~","","","","CC0805KKX5R8BB106","","",""
-"","","C51","47n","Device:C_Small","lc_lib:0402_C","~","","","","","","",""
-"","","C52","0.1uF 25v","Device:C_Small","lc_lib:0402_C","~","","","","","","",""
-"","","C53","0.1u 6.3v","Device:C","lc_lib:0402_C","~","","","","","","",""
-"","","C54","0.1u 6.3v","Device:C","lc_lib:0402_C","~","","","","","","",""
-"","","C55","0.1u 6.3v","Device:C","lc_lib:0402_C","~","","","","","","",""
-"","","C56","0.1u 6.3v","Device:C","lc_lib:0402_C","~","","","","","","",""
-"","","C57","0.1u 6.3v","Device:C","lc_lib:0402_C","~","","","","","","",""
-"","","C58","15 pF 0402","Device:C","lc_lib:0402_C","~","","","","","","","C1548"
-"","","C59","0.1u 6.3v","Device:C","lc_lib:0402_C","~","","","","","","",""
-"","","C60","15 pF 0402","Device:C","lc_lib:0402_C","~","","","","","","","C1548"
-"","","C61","0.1u 6.3v","Device:C","lc_lib:0402_C","~","","","","","","",""
-"","","C62","0.1u 6.3v","Device:C","lc_lib:0402_C","~","","","","","","",""
-"","","C63","0.1u 6.3v","Device:C","lc_lib:0402_C","~","","","","","","",""
-"","","C64","0.1u 6.3v","Device:C","lc_lib:0402_C","~","","","","","","",""
-"","","C68","12pF 0402","Device:C","lc_lib:0402_C","~","","","","","","","C1547"
-"","","C69","0.1u 6.3v","Device:C","lc_lib:0402_C","~","","","","","","",""
-"","","C70","2.2u 6.3v","Device:C","lc_lib:0805_C","~","","","","","","",""
-"","","C71","12pF 0402","Device:C","lc_lib:0402_C","~","","","","","","","C1547"
-"","","C72","0.1u 6.3v","Device:C","lc_lib:0402_C","~","","","","","","",""
-"","","C73","0.1u 6.3v","Device:C","lc_lib:0402_C","~","","","","","","",""
-"","","C74","0.1u 6.3v","Device:C","lc_lib:0402_C","~","","","","","","",""
-"","","C75","0.1u 6.3v","Device:C","lc_lib:0402_C","~","","","","","","",""
-"","","D1","CD1206-S01575","Device:D_Small","lc_lib:SOD-123","~","","","","304040005","","",""
-"","","D2","LED","Device:LED","Diode_THT:D_DO-15_P3.81mm_Vertical_AnodeUp","~","","","","","","",""
-"","","D3","LED","Device:LED","Diode_THT:D_DO-15_P3.81mm_Vertical_AnodeUp","~","","","","","","",""
-"","","D4","LED","Device:LED","Diode_THT:D_DO-15_P3.81mm_Vertical_AnodeUp","~","","","","","","",""
-"","","D5","DIODE","pspice:DIODE","lc_lib:SOD-123","~","","","","","","",""
-"","","D6","LED","Device:LED","Diode_THT:D_DO-15_P3.81mm_Vertical_AnodeUp","~","","","","","","",""
-"","","D7","LED","Device:LED","Diode_THT:D_DO-15_P3.81mm_Vertical_AnodeUp","~","","","","","","",""
-"","","D9","CD1206-S01575","Device:D_Small","lc_lib:SOD-123","~","","","","304040005","","",""
-"","","F1","Fuse_Small","Device:Fuse_Small","lc_lib:1206","~","","","","","","",""
-"","","F2","Fuse_Small","Device:Fuse_Small","lc_lib:1206","~","","","","","","",""
-"","","F3","Fuse_Small","Device:Fuse_Small","lc_lib:1206","~","","","","","","",""
-"","","F4","Fuse_Small","Device:Fuse_Small","lc_lib:1206","~","","","","","","",""
-"","","F5","Fuse_Small","Device:Fuse_Small","lc_lib:1206","~","","","","","","",""
-"","","F6","Fuse_Small","Device:Fuse_Small","lc_lib:1206","~","","","","","","",""
-"","","F7","Fuse_Small","Device:Fuse_Small","lc_lib:1206","~","","","","","","",""
-"","","F8","Fuse_Small","Device:Fuse_Small","lc_lib:1206","~","","","","","","",""
-"","","FB1","Ferrite_Bead_Small","Device:Ferrite_Bead_Small","lc_lib:0603_L","~","","","","C13415","","",""
-"","","J1","USB_C_Receptacle_USB2.0","Connector:USB_C_Receptacle_USB2.0","Connector_USB:USB_C_Receptacle_Amphenol_12401548E4-2A","https://www.usb.org/sites/default/files/documents/usb_type-c.zip","","","","TYPE-C-31-M-17","","",""
-"","","J2","ST-USB-003A","Connector:USB_B","Connector_USB:USB3_A_Plug_Wuerth_692112030100_Horizontal"," ~","","","","320010007","","",""
-"","","J3","Barrel_Jack_MountingPin","Connector:Barrel_Jack_MountingPin","Connector_BarrelJack:BarrelJack_Horizontal","~","","","","320120003","","",""
-"","","J4","JST 2P-1.0","Connector_Generic_MountingPin:Conn_01x02_MountingPin","Connector_JST:JST_SH_SM02B-SRSS-TB_1x02-1MP_P1.00mm_Horizontal","~","","","","320110054","","",""
-"","","J5","JST 2P-1.0","Connector_Generic_MountingPin:Conn_01x02_MountingPin","Connector_JST:JST_SH_SM02B-SRSS-TB_1x02-1MP_P1.00mm_Horizontal","~","","","","320110054","","",""
-"","","J6","JST 2P-1.0","Connector_Generic_MountingPin:Conn_01x02_MountingPin","Connector_JST:JST_SH_SM02B-SRSS-TB_1x02-1MP_P1.00mm_Horizontal","~","","","","320110054","","",""
-"","","J7","JST 2P-1.0","Connector_Generic_MountingPin:Conn_01x02_MountingPin","Connector_JST:JST_SH_SM02B-SRSS-TB_1x02-1MP_P1.00mm_Horizontal","~","","","","320110054","","",""
-"","","J8","JST 2P-1.0","Connector_Generic_MountingPin:Conn_01x02_MountingPin","Connector_JST:JST_SH_SM02B-SRSS-TB_1x02-1MP_P1.00mm_Horizontal","~","","","","320110054","","",""
-"","","J9","JST 2P-1.0","Connector_Generic_MountingPin:Conn_01x02_MountingPin","Connector_JST:JST_SH_SM02B-SRSS-TB_1x02-1MP_P1.00mm_Horizontal","~","","","","320110054","","",""
-"","","J10","JST 2P-1.0","Connector_Generic_MountingPin:Conn_01x02_MountingPin","Connector_JST:JST_SH_SM02B-SRSS-TB_1x02-1MP_P1.00mm_Horizontal","~","","","","320110054","","",""
-"","","J11","JST 2P-1.0","Connector_Generic_MountingPin:Conn_01x02_MountingPin","Connector_JST:JST_SH_SM02B-SRSS-TB_1x02-1MP_P1.00mm_Horizontal","~","","","","320110054","","",""
-"","","J12","Conn_01x02_Female","Connector:Conn_01x02_Female","","~","","","","","","",""
-"","","J13","Conn_01x04_Male","Connector:Conn_01x04_Male","","~","","","","","","",""
-"","","J14","Conn_01x01_Female","Connector:Conn_01x01_Female","","~","","","","","","",""
-"","","L1","MWSA0603-2R2MT","Device:L","SmartBattery:MWSA0603","~","","","","MWSA0603-2R2MT","","",""
-"","","L2","MWSA0603-2R2MT","Device:L","SmartBattery:MWSA0603","~","","","","MWSA0603S-2R2MT","","",""
-"","","L3","4.7uH","Device:L","","~","","","","303010114","","",""
-"","","Q1","AO4407A","SmartBattery:AO4407A","SmartBattery:SOIC127P600X175-8N","","Alpha & Omega Semiconductor","1.75 mm","I","","","IPC 7351B",""
-"","","Q2","2n7002K","Device:Q_NMOS_GSD","Package_TO_SOT_SMD:SOT-23","~","","","","","","",""
-"","","Q3","AON7400A ","SmartBattery:AO4468","lc_lib:QFN-8_3X3X065P","~","","","","AON7400A ","","",""
-"","","Q4","AON7400A ","SmartBattery:AO4468","lc_lib:QFN-8_3X3X065P","~","","","","AON7400A ","","",""
-"","","Q5","AON7400A ","SmartBattery:AO4468","lc_lib:QFN-8_3X3X065P","~","","","","AON7400A ","","",""
-"","","Q6","AON7400A ","SmartBattery:AO4468","lc_lib:QFN-8_3X3X065P","~","","","","AON7400A ","","",""
-"","","Q7","2n7002K","Device:Q_NMOS_GSD","Package_TO_SOT_SMD:SOT-23","~","","","","","","",""
-"","","Q8","AON7400A ","SmartBattery:AO4468","lc_lib:QFN-8_3X3X065P","~","","","","AON7400A ","","",""
-"","","Q9","AON7400A ","SmartBattery:AO4468","lc_lib:QFN-8_3X3X065P","~","","","","AON7400A ","","",""
-"","","Q10","AON7400A ","SmartBattery:AO4468","lc_lib:QFN-8_3X3X065P","~","","","","AON7400A ","","",""
-"","","Q11","AON7400A ","SmartBattery:AO4468","lc_lib:QFN-8_3X3X065P","~","","","","AON7400A ","","",""
-"","","Q12","AON7400A ","SmartBattery:AO4468","lc_lib:QFN-8_3X3X065P","~","","","","AON7400A ","","",""
-"","","Q13","AON7400A ","SmartBattery:AO4468","lc_lib:QFN-8_3X3X065P","~","","","","AON7400A ","","",""
-"","","R1","0.01","Device:R_Small_US","lc_lib:2512_R","~","","","","","","",""
-"","","R2","0.01","Device:R_Small_US","lc_lib:2512_R","~","","","","","","",""
-"","","R3","1k","Device:R_US","lc_lib:0402_R","~","","","","0201WMF1001TCE","","",""
-"","","R4","1k","Device:R_US","lc_lib:0402_R","~","","","","0201WMF1001TCE","","",""
-"","","R5","1k","Device:R_US","lc_lib:0402_R","~","","","","0201WMF1001TCE","","",""
-"","","R6","1k","Device:R_US","lc_lib:0402_R","~","","","","0201WMF1001TCE","","",""
-"","","R7","1 mOhm","Device:R_US","lc_lib:1206_R","~","","","","","","",""
-"","","R8","1 mOhm","Device:R_US","lc_lib:1206_R","~","","","","","","",""
-"","","R9","10M","Device:R_Small_US","lc_lib:0402_R","~","","","","","","",""
-"","","R10","1 mOhm","Device:R_US","lc_lib:1206_R","~","","","","","","",""
-"","","R11","100","Device:R_US","lc_lib:0402_R","~","","","","0201WMF1003TCE","","",""
-"","","R12","1k","Device:R_US","lc_lib:0402_R","~","","","","0201WMF1003TCE","","",""
-"","","R13","100","Device:R_US","lc_lib:0402_R","~","","","","0201WMF1003TCE","","",""
-"","","R14","100","Device:R_US","lc_lib:0402_R","~","","","","0201WMF1003TCE","","",""
-"","","R15","100","Device:R_US","lc_lib:0402_R","~","","","","0201WMF1003TCE","","",""
-"","","R16","51k","Device:R_US","lc_lib:0402_R","~","","","","","","",""
-"","","R17","5.1k","Device:R_US","lc_lib:0402_R","~","","","","","","",""
-"","","R18","10Meg","Device:R_US","lc_lib:0402_R","~","","","","","","",""
-"","","R19","DNP","Device:R_US","lc_lib:0402_R","~","","","","","","",""
-"","","R20","0","Device:R_US","lc_lib:0402_R","~","","","","","","",""
-"","","R21","100","Device:R_US","lc_lib:0402_R","~","","","","","","",""
-"","","R22","5.1k","Device:R_US","lc_lib:0402_R","~","","","","0201WMJ0512TCE","","",""
-"","","R23","0.001","Device:R_US","Resistor_SMD:R_1206_3216Metric","~","","","","","","",""
-"","","R24","5.1k","Device:R_US","lc_lib:0402_R","~","","","","0201WMJ0512TCE","","",""
-"","","R25","100","Device:R_US","lc_lib:0402_R","~","","","","","","",""
-"","","R26","100","Device:R_US","lc_lib:0402_R","~","","","","0201WMJ0512TCE","","",""
-"","","R27","5.1k","Device:R_US","lc_lib:0402_R","~","","","","0201WMJ0512TCE","","",""
-"","","R28","10k","Device:R_US","lc_lib:0402_R","~","","","","","","",""
-"","","R29","10M","Device:R_US","lc_lib:0402_R","~","","","","","","",""
-"","","R30","10k","Device:R_US","lc_lib:0402_R","~","","","","","","",""
-"","","R31","5.1k","Device:R_US","lc_lib:0402_R","~","","","","0201WMJ0512TCE","","",""
-"","","R32","5.1k","Device:R_US","lc_lib:0402_R","~","","","","0201WMJ0512TCE","","",""
-"","","R33","0","Device:R_Small_US","lc_lib:0402_R","~","","","","","","",""
-"","","R34","10M","Device:R_Small_US","lc_lib:0402_R","~","","","","","","",""
-"","","R35","DNP","Device:R_Small_US","lc_lib:0402_R","~","","","","","","",""
-"","","R36","0","Device:R_Small_US","lc_lib:0402_R","~","","","","","","",""
-"","","R38","0","Device:R_Small_US","lc_lib:0402_R","~","","","","","","",""
-"","","R39","1M","Device:R_Small_US","lc_lib:0402_R","~","","","","","","",""
-"","","R40","430k","Device:R_Small_US","lc_lib:0402_R","~","","","","","","",""
-"","","R41","100k","Device:R_Small_US","lc_lib:0402_R","~","","","","","","",""
-"","","R42","4.7","Device:R_Small_US","lc_lib:0402_R","~","","","","","","",""
-"","","R43","4.02k","Device:R_Small_US","lc_lib:0402_R","~","","","","","","",""
-"","","R44","4.02k","Device:R_Small_US","lc_lib:0402_R","~","","","","","","",""
-"","","R45","10","Device:R_Small_US","lc_lib:0402_R","~","","","","","","",""
-"","","R46","0","Device:R_Small_US","lc_lib:0402_R","~","","","","","","",""
-"","","R47","0","Device:R_Small_US","lc_lib:0402_R","~","","","","","","",""
-"","","R48","4.7","Device:R_Small_US","lc_lib:0402_R","~","","","","","","",""
-"","","SW1","SW_Push","Switch:SW_Push","lc_lib:0402_R","~","","","","B3F-1052","","",""
-"","","SW2","SW_Push","Switch:SW_Push","lc_lib:0402_R","~","","","","B3F-1052","","",""
-"","","TH1","NCP18WF104F03","Device:Thermistor_PTC","Resistor_SMD:R_0805_2012Metric","~","","","","NCP18WF104F03","","",""
-"","","TH2","NXRT15WB473FA1B030","Device:Thermistor_PTC_US","Diode_THT:D_A-405_P2.54mm_Vertical_AnodeUp","~","","","","NXRT15WB473FA1B030","","",""
-"","","TH3","NXRT15WB473FA1B030","Device:Thermistor_PTC_US","Diode_THT:D_A-405_P2.54mm_Vertical_AnodeUp","~","","","","NXRT15WB473FA1B030","","",""
-"","","TH4","NXRT15WB473FA1B030","Device:Thermistor_PTC_US","Diode_THT:D_A-405_P2.54mm_Vertical_AnodeUp","~","","","","NXRT15WB473FA1B030","","",""
-"","","TH5","NXRT15WB473FA1B030","Device:Thermistor_PTC_US","Diode_THT:D_A-405_P2.54mm_Vertical_AnodeUp","~","","","","NXRT15WB473FA1B030","","",""
-"","","U1","bq2477x","SmartBattery:bq2477x","SmartBattery:QFN40P400X400X80-29N","","","","","BQ24780S","","",""
-"","","U2","BQ294706DSGR","SmartBattery:BQ2947xx","Package_SON:WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm","","","","","BQ294706DSGR","","",""
-"","","U3","ITV4030","SmartBattery:ITV4030","SmartBattery:ITV4030","","","","","","","",""
-"","","U4","BQ40Z50","SmartBattery:BQ40Z50","Package_DFN_QFN:QFN-32-1EP_4x4mm_P0.4mm_EP2.65x2.65mm","","","","","BQ40Z50RSMT-R2","","",""
-"","","U5","LM5175PWPR","SmartBattery:LM5175PWPR","SmartBattery:IC_TPS61196PWPRQ1","","","","","LM5175PWPR","","",""
-"","","U6","STM32F730R8T6","SmartBattery:STM32F730R8T6","lc_lib:TQFP-64_10X10X05P","","STMicroelectronics","1.6mm","1","","5084","IPC 7351B",""
-"","","U7","W25Q128JVSIQ","SmartBattery:W25Q128JVSIQ","lc_lib:SOP-8_208MIL","","","","","","","",""
-"","","U8","LMR14030SDDAR","SmartBattery:LMR14030SDDAR","SmartBattery:NOPB","","","","","C182078","","",""
-"","","U9","FS35ND01G-S1Y2QWFI000","SmartBattery:FS35ND01G-S1Y2QWFI000","SmartBattery:WSON8_8x6mm","","","","","FS35ND01G-S1Y2QWFI000","","",""
-"","","U10","ESP32-WROOM-32U","RF_Module:ESP32-WROOM-32U","RF_Module:ESP32-WROOM-32U","https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32d_esp32-wroom-32u_datasheet_en.pdf","","","","ESP32-WROOM-32U","","",""
-"","","Y1","Q13FC1350000400","Device:Crystal","Crystal:Crystal_SMD_3215-2Pin_3.2x1.5mm","~","","","","C32346","","",""
-"","","Y2","Crystal_GND24","Device:Crystal_GND24","Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm","~","","",""," C9006","","",""
-
-
-
-"Collated Components:"
-
-"Item","Qty","Reference(s)","Value","LibPart","Footprint","Datasheet","MANUFACTURER","MAXIMUM_PACKAGE_HEIGHT","PARTREV","SKU","SNAPEDA_PACKAGE_ID","STANDARD","sku"
-"1","1","C1","1uF","Device:C_Small","lc_lib:0402_C","~","","","","","","",""
-"2","6","C2, C8, C10, C11, C49, C50","10u","Device:C_Small","lc_lib:0805_C","~","","","","CC0805KKX5R8BB106","","",""
-"3","2","C3, C6","0.1u 25v","Device:C_Small","lc_lib:0402_C","~","","","","","","",""
-"4","8","C4, C7, C9, C12, C13, C14, C15, C44","22u","Device:C_Small","lc_lib:0805_C","~","","","","CL21A226MAQNNNE","","",""
-"5","1","C5","0.1u","Device:C_Small","lc_lib:0402_C","~","","","","","","",""
-"6","2","C16, C17","220u","Device:C_Small","Capacitor_SMD:C_Elec_8x10.2","~","","","","RVT1V221M0810","","",""
-"7","25","C18, C19, C20, C21, C23, C24, C25, C26, C32, C40, C53, C54, C55, C56, C57, C59, C61, C62, C63, C64, C69, C72, C73, C74, C75","0.1u 6.3v","Device:C","lc_lib:0402_C","~","","","","","","",""
-"8","1","C22","0.1uF 25v","Device:C","lc_lib:0402_C","~","","","","","","",""
-"9","2","C27, C28","0.1u 20v","Device:C","lc_lib:0402_C","~","","","","","","",""
-"10","1","C29","2.2u 50v","Device:C","lc_lib:0805_C","~","","","","","","",""
-"11","2","C30, C33","0.1u 50v","Device:C","lc_lib:0402_C","~","","","","","","",""
-"12","1","C31","0.1uF","Device:C","lc_lib:0402_C","~","","","","","","",""
-"13","2","C34, C35","1uF 16v","Device:C_Small","lc_lib:0402_C","~","","","","","","",""
-"14","2","C36, C70","2.2u 6.3v","Device:C","lc_lib:0805_C","~","","","","","","",""
-"15","3","C37, C43, C48","1uF 25v","Device:C_Small","lc_lib:0402_C","~","","","","CC0805KKX5R8BB106","","",""
-"16","3","C38, C41, C52","0.1uF 25v","Device:C_Small","lc_lib:0402_C","~","","","","","","",""
-"17","2","C39, C47","0.1uF","Device:C_Small","lc_lib:0402_C","~","","","","","","",""
-"18","1","C42","0.01uF","Device:C_Small","lc_lib:0402_C","~","","","","","","",""
-"19","1","C45","2.2uF 25v","Device:C_Small","lc_lib:0805_C","~","","","","","","",""
-"20","1","C46","2200pF","Device:C_Small","lc_lib:0402_C","~","","","","","","",""
-"21","1","C51","47n","Device:C_Small","lc_lib:0402_C","~","","","","","","",""
-"22","2","C58, C60","15 pF 0402","Device:C","lc_lib:0402_C","~","","","","","","","C1548"
-"23","2","C68, C71","12pF 0402","Device:C","lc_lib:0402_C","~","","","","","","","C1547"
-"24","2","D1, D9","CD1206-S01575","Device:D_Small","lc_lib:SOD-123","~","","","","304040005","","",""
-"25","5","D2, D3, D4, D6, D7","LED","Device:LED","Diode_THT:D_DO-15_P3.81mm_Vertical_AnodeUp","~","","","","","","",""
-"26","1","D5","DIODE","pspice:DIODE","lc_lib:SOD-123","~","","","","","","",""
-"27","8","F1, F2, F3, F4, F5, F6, F7, F8","Fuse_Small","Device:Fuse_Small","lc_lib:1206","~","","","","","","",""
-"28","1","FB1","Ferrite_Bead_Small","Device:Ferrite_Bead_Small","lc_lib:0603_L","~","","","","C13415","","",""
-"29","1","J1","USB_C_Receptacle_USB2.0","Connector:USB_C_Receptacle_USB2.0","Connector_USB:USB_C_Receptacle_Amphenol_12401548E4-2A","https://www.usb.org/sites/default/files/documents/usb_type-c.zip","","","","TYPE-C-31-M-17","","",""
-"30","1","J2","ST-USB-003A","Connector:USB_B","Connector_USB:USB3_A_Plug_Wuerth_692112030100_Horizontal"," ~","","","","320010007","","",""
-"31","1","J3","Barrel_Jack_MountingPin","Connector:Barrel_Jack_MountingPin","Connector_BarrelJack:BarrelJack_Horizontal","~","","","","320120003","","",""
-"32","8","J4, J5, J6, J7, J8, J9, J10, J11","JST 2P-1.0","Connector_Generic_MountingPin:Conn_01x02_MountingPin","Connector_JST:JST_SH_SM02B-SRSS-TB_1x02-1MP_P1.00mm_Horizontal","~","","","","320110054","","",""
-"33","1","J12","Conn_01x02_Female","Connector:Conn_01x02_Female","","~","","","","","","",""
-"34","1","J13","Conn_01x04_Male","Connector:Conn_01x04_Male","","~","","","","","","",""
-"35","1","J14","Conn_01x01_Female","Connector:Conn_01x01_Female","","~","","","","","","",""
-"36","2","L1, L2","MWSA0603-2R2MT","Device:L","SmartBattery:MWSA0603","~","","","","MWSA0603-2R2MT","","",""
-"37","1","L3","4.7uH","Device:L","","~","","","","303010114","","",""
-"38","1","Q1","AO4407A","SmartBattery:AO4407A","SmartBattery:SOIC127P600X175-8N","","Alpha & Omega Semiconductor","1.75 mm","I","","","IPC 7351B",""
-"39","2","Q2, Q7","2n7002K","Device:Q_NMOS_GSD","Package_TO_SOT_SMD:SOT-23","~","","","","","","",""
-"40","10","Q3, Q4, Q5, Q6, Q8, Q9, Q10, Q11, Q12, Q13","AON7400A ","SmartBattery:AO4468","lc_lib:QFN-8_3X3X065P","~","","","","AON7400A ","","",""
-"41","2","R1, R2","0.01","Device:R_Small_US","lc_lib:2512_R","~","","","","","","",""
-"42","5","R3, R4, R5, R6, R12","1k","Device:R_US","lc_lib:0402_R","~","","","","0201WMF1001TCE","","",""
-"43","3","R7, R8, R10","1 mOhm","Device:R_US","lc_lib:1206_R","~","","","","","","",""
-"44","2","R9, R34","10M","Device:R_Small_US","lc_lib:0402_R","~","","","","","","",""
-"45","7","R11, R13, R14, R15, R21, R25, R26","100","Device:R_US","lc_lib:0402_R","~","","","","0201WMF1003TCE","","",""
-"46","1","R16","51k","Device:R_US","lc_lib:0402_R","~","","","","","","",""
-"47","6","R17, R22, R24, R27, R31, R32","5.1k","Device:R_US","lc_lib:0402_R","~","","","","0201WMJ0512TCE","","",""
-"48","1","R18","10Meg","Device:R_US","lc_lib:0402_R","~","","","","","","",""
-"49","1","R19","DNP","Device:R_US","lc_lib:0402_R","~","","","","","","",""
-"50","1","R20","0","Device:R_US","lc_lib:0402_R","~","","","","","","",""
-"51","1","R23","0.001","Device:R_US","Resistor_SMD:R_1206_3216Metric","~","","","","","","",""
-"52","2","R28, R30","10k","Device:R_US","lc_lib:0402_R","~","","","","","","",""
-"53","1","R29","10M","Device:R_US","lc_lib:0402_R","~","","","","","","",""
-"54","5","R33, R36, R38, R46, R47","0","Device:R_Small_US","lc_lib:0402_R","~","","","","","","",""
-"55","1","R35","DNP","Device:R_Small_US","lc_lib:0402_R","~","","","","","","",""
-"56","1","R39","1M","Device:R_Small_US","lc_lib:0402_R","~","","","","","","",""
-"57","1","R40","430k","Device:R_Small_US","lc_lib:0402_R","~","","","","","","",""
-"58","1","R41","100k","Device:R_Small_US","lc_lib:0402_R","~","","","","","","",""
-"59","2","R42, R48","4.7","Device:R_Small_US","lc_lib:0402_R","~","","","","","","",""
-"60","2","R43, R44","4.02k","Device:R_Small_US","lc_lib:0402_R","~","","","","","","",""
-"61","1","R45","10","Device:R_Small_US","lc_lib:0402_R","~","","","","","","",""
-"62","2","SW1, SW2","SW_Push","Switch:SW_Push","lc_lib:0402_R","~","","","","B3F-1052","","",""
-"63","1","TH1","NCP18WF104F03","Device:Thermistor_PTC","Resistor_SMD:R_0805_2012Metric","~","","","","NCP18WF104F03","","",""
-"64","4","TH2, TH3, TH4, TH5","NXRT15WB473FA1B030","Device:Thermistor_PTC_US","Diode_THT:D_A-405_P2.54mm_Vertical_AnodeUp","~","","","","NXRT15WB473FA1B030","","",""
-"65","1","U1","bq2477x","SmartBattery:bq2477x","SmartBattery:QFN40P400X400X80-29N","","","","","BQ24780S","","",""
-"66","1","U2","BQ294706DSGR","SmartBattery:BQ2947xx","Package_SON:WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm","","","","","BQ294706DSGR","","",""
-"67","1","U3","ITV4030","SmartBattery:ITV4030","SmartBattery:ITV4030","","","","","","","",""
-"68","1","U4","BQ40Z50","SmartBattery:BQ40Z50","Package_DFN_QFN:QFN-32-1EP_4x4mm_P0.4mm_EP2.65x2.65mm","","","","","BQ40Z50RSMT-R2","","",""
-"69","1","U5","LM5175PWPR","SmartBattery:LM5175PWPR","SmartBattery:IC_TPS61196PWPRQ1","","","","","LM5175PWPR","","",""
-"70","1","U6","STM32F730R8T6","SmartBattery:STM32F730R8T6","lc_lib:TQFP-64_10X10X05P","","STMicroelectronics","1.6mm","1","","5084","IPC 7351B",""
-"71","1","U7","W25Q128JVSIQ","SmartBattery:W25Q128JVSIQ","lc_lib:SOP-8_208MIL","","","","","","","",""
-"72","1","U8","LMR14030SDDAR","SmartBattery:LMR14030SDDAR","SmartBattery:NOPB","","","","","C182078","","",""
-"73","1","U9","FS35ND01G-S1Y2QWFI000","SmartBattery:FS35ND01G-S1Y2QWFI000","SmartBattery:WSON8_8x6mm","","","","","FS35ND01G-S1Y2QWFI000","","",""
-"74","1","U10","ESP32-WROOM-32U","RF_Module:ESP32-WROOM-32U","RF_Module:ESP32-WROOM-32U","https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32d_esp32-wroom-32u_datasheet_en.pdf","","","","ESP32-WROOM-32U","","",""
-"75","1","Y1","Q13FC1350000400","Device:Crystal","Crystal:Crystal_SMD_3215-2Pin_3.2x1.5mm","~","","","","C32346","","",""
-"76","1","Y2","Crystal_GND24","Device:Crystal_GND24","Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm","~","","",""," C9006","","",""
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>KiCad BOM Example 5</title>
+    </head>
+    <body>
+    <h1>C:\Users\aaa bbb\Documents\KiCadProj\SmartBattery\SmartBattery.sch</h1>
+    <p>1/4/2021 9:51:05 PM</p>
+    <p>Eeschema (5.1.2)-1</p>
+    <p><b>Component Count:</b>340</p>
+    <table>
+    <tr><th style='width:640px'>Ref</th><th>Qnty</th><th>Value</th><th>Part</th><th>Footprint</th><th>Description</th><th>Vendor</th></tr>
+    <tr><td>C1, C6, C34</td><td>3</td><td>0.1uF 6.3v</td><td>Device:C_Small</td><td>lc_lib:0402_C</td><td>Unpolarized capacitor, small symbol</td><td></td></tr>
+    <tr><td>C2, C3, C4, C7, C8, C9, C10, C11, C65, C66, C82, C83, C84, C85, C103, C112, C113</td><td>17</td><td>10u</td><td>Device:C_Small</td><td>lc_lib:0805_C</td><td>Unpolarized capacitor, small symbol</td><td></td></tr>
+    <tr><td>C5</td><td>1</td><td>0.1u</td><td>Device:C_Small</td><td>lc_lib:0402_C</td><td>Unpolarized capacitor, small symbol</td><td></td></tr>
+    <tr><td>C12</td><td>1</td><td>DNP</td><td>Device:C_Small</td><td>lc_lib:0402_C</td><td>Unpolarized capacitor, small symbol</td><td></td></tr>
+    <tr><td>C13, C86, C97, C98, C99, C100, C101, C102, C106, C107, C108, C109, C110, C111, C114, C115</td><td>16</td><td>1uF 25v</td><td>Device:C_Small</td><td>lc_lib:0402_C</td><td>Unpolarized capacitor, small symbol</td><td></td></tr>
+    <tr><td>C14, C15, C17, C38</td><td>4</td><td>33nF</td><td>Device:C_Small</td><td>lc_lib:0402_C</td><td>Unpolarized capacitor, small symbol</td><td></td></tr>
+    <tr><td>C16, C40, C89</td><td>3</td><td>220u</td><td>Device:C_Small</td><td>Capacitor_SMD:C_Elec_8x10.2</td><td>Unpolarized capacitor, small symbol</td><td></td></tr>
+    <tr><td>C18, C19, C20, C21, C23, C24, C25, C26, C32, C53, C54, C57, C59, C61, C62, C69, C72, C73, C74, C75</td><td>20</td><td>0.1u 6.3v</td><td>Device:C</td><td>lc_lib:0402_C</td><td>Unpolarized capacitor</td><td></td></tr>
+    <tr><td>C22</td><td>1</td><td>0.1uF 25v</td><td>Device:C</td><td>lc_lib:0402_C</td><td>Unpolarized capacitor</td><td></td></tr>
+    <tr><td>C27, C28</td><td>2</td><td>0.1u 20v</td><td>Device:C</td><td>lc_lib:0402_C</td><td>Unpolarized capacitor</td><td></td></tr>
+    <tr><td>C29, C35</td><td>2</td><td>2.2u 50v</td><td>Device:C</td><td>lc_lib:0805_C</td><td>Unpolarized capacitor</td><td></td></tr>
+    <tr><td>C30, C33</td><td>2</td><td>0.1u 50v</td><td>Device:C</td><td>lc_lib:0402_C</td><td>Unpolarized capacitor</td><td></td></tr>
+    <tr><td>C31</td><td>1</td><td>0.1uF</td><td>Device:C</td><td>lc_lib:0402_C</td><td>Unpolarized capacitor</td><td></td></tr>
+    <tr><td>C36, C70</td><td>2</td><td>2.2u 6.3v</td><td>Device:C</td><td>lc_lib:0805_C</td><td>Unpolarized capacitor</td><td></td></tr>
+    <tr><td>C37, C41, C42, C45, C51, C95, C96, C104, C105</td><td>9</td><td>150pF</td><td>Device:C_Small</td><td>lc_lib:0402_C</td><td>Unpolarized capacitor, small symbol</td><td></td></tr>
+    <tr><td>C39</td><td>1</td><td>33pF</td><td>Device:C_Small</td><td>lc_lib:0402_C</td><td>Unpolarized capacitor, small symbol</td><td></td></tr>
+    <tr><td>C43, C46</td><td>2</td><td>0.1uF 25v</td><td>Device:C_Small</td><td>lc_lib:0402_C</td><td>Unpolarized capacitor, small symbol</td><td></td></tr>
+    <tr><td>C44, C55, C56, C63, C64, C79, C80, C81, C87, C88, C90, C91, C92, C93, C94</td><td>15</td><td>22u</td><td>Device:C_Small</td><td>lc_lib:0805_C</td><td>Unpolarized capacitor, small symbol</td><td></td></tr>
+    <tr><td>C47</td><td>1</td><td>1.5nF</td><td>Device:C_Small</td><td>lc_lib:0402_C</td><td>Unpolarized capacitor, small symbol</td><td></td></tr>
+    <tr><td>C48</td><td>1</td><td>680pF</td><td>Device:C_Small</td><td>lc_lib:0603_C</td><td>Unpolarized capacitor, small symbol</td><td></td></tr>
+    <tr><td>C49</td><td>1</td><td>15pF</td><td>Device:C_Small</td><td>lc_lib:0402_C</td><td>Unpolarized capacitor, small symbol</td><td></td></tr>
+    <tr><td>C50, C52</td><td>2</td><td>1uF 16v</td><td>Device:C_Small</td><td>lc_lib:0402_C</td><td>Unpolarized capacitor, small symbol</td><td></td></tr>
+    <tr><td>C58, C60</td><td>2</td><td>15 pF 0402</td><td>Device:C</td><td>lc_lib:0402_C</td><td>Unpolarized capacitor</td><td></td></tr>
+    <tr><td>C67, C76</td><td>2</td><td>0.1u 25v</td><td>Device:C_Small</td><td>lc_lib:0402_C</td><td>Unpolarized capacitor, small symbol</td><td></td></tr>
+    <tr><td>C68, C71</td><td>2</td><td>12pF 0402</td><td>Device:C</td><td>lc_lib:0402_C</td><td>Unpolarized capacitor</td><td></td></tr>
+    <tr><td>C77</td><td>1</td><td>8.2nF</td><td>Device:C_Small</td><td>lc_lib:0603_C</td><td>Unpolarized capacitor, small symbol</td><td></td></tr>
+    <tr><td>C78</td><td>1</td><td>220pF</td><td>Device:C_Small</td><td>lc_lib:0402_C</td><td>Unpolarized capacitor, small symbol</td><td></td></tr>
+    <tr><td>D1, D10</td><td>2</td><td>ESDA6V8AV6</td><td>Power_Protection:ESDA6V1-5SC6</td><td>Package_TO_SOT_SMD:SOT-563</td><td>Quintuple bidirectional transil, Suppressor for ESD protection, 6V1 Breakdown, SOT-23-6</td><td></td></tr>
+    <tr><td>D2, D3, D4, D6, D7</td><td>5</td><td>LED</td><td>Device:LED</td><td>Diode_THT:D_DO-15_P3.81mm_Vertical_AnodeUp</td><td>Light emitting diode</td><td></td></tr>
+    <tr><td>D5, D11, D15</td><td>3</td><td>PESD24VS1UB-N</td><td>pspice:DIODE</td><td>lc_lib:SOD-523</td><td>Diode symbol for simulation only. Pin order incompatible with official kicad footprints</td><td></td></tr>
+    <tr><td>D8, D9, D12, D13, D14</td><td>5</td><td>B5817W-5819W</td><td>Device:D_Small</td><td>lc_lib:SOD-123</td><td>Diode, small symbol</td><td></td></tr>
+    <tr><td>F1, F2, F3, F4, F5, F6, F7, F8</td><td>8</td><td>Fuse_Small</td><td>Device:Fuse_Small</td><td>lc_lib:1206</td><td>Fuse, small symbol</td><td></td></tr>
+    <tr><td>FB1</td><td>1</td><td>Ferrite_Bead_Small</td><td>Device:Ferrite_Bead_Small</td><td>lc_lib:0603_L</td><td>Ferrite bead, small symbol</td><td></td></tr>
+    <tr><td>J1, J15</td><td>2</td><td>USB_C_Receptacle_USB2.0</td><td>Connector:USB_C_Receptacle_USB2.0</td><td>Connector_USB:USB_C_Receptacle_Amphenol_12401548E4-2A</td><td>USB 2.0-only Type-C Receptacle connector</td><td></td></tr>
+    <tr><td>J2</td><td>1</td><td>ST-USB-003A</td><td>Connector:USB_B</td><td>Connector_USB:USB3_A_Plug_Wuerth_692112030100_Horizontal</td><td>USB Type B connector</td><td></td></tr>
+    <tr><td>J3</td><td>1</td><td>Barrel_Jack_MountingPin</td><td>Connector:Barrel_Jack_MountingPin</td><td>Connector_BarrelJack:BarrelJack_Horizontal</td><td>DC Barrel Jack with a mounting pin</td><td></td></tr>
+    <tr><td>J4, J5, J6, J7, J8, J9, J10, J11</td><td>8</td><td>JST 2P-1.0</td><td>Connector_Generic_MountingPin:Conn_01x02_MountingPin</td><td>Connector_JST:JST_SH_SM02B-SRSS-TB_1x02-1MP_P1.00mm_Horizontal</td><td>Generic connectable mounting pin connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J12</td><td>1</td><td>Conn_01x02_Female</td><td>Connector:Conn_01x02_Female</td><td></td><td>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J13</td><td>1</td><td>Conn_01x04_Male</td><td>Connector:Conn_01x04_Male</td><td></td><td>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J14</td><td>1</td><td>Conn_01x01_Female</td><td>Connector:Conn_01x01_Female</td><td></td><td>Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J16, J17, J18</td><td>3</td><td>Conn_01x03_Female</td><td>Connector:Conn_01x03_Female</td><td></td><td>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>L1</td><td>1</td><td>MWSA1004-2R2MT</td><td>Device:L</td><td>SmartBattery:L_10.3x11.5_H4</td><td>Inductor</td><td></td></tr>
+    <tr><td>L2</td><td>1</td><td>MWSA0603-2R2MT</td><td>Device:L</td><td>SmartBattery:L_10.3x11.5_H4</td><td>Inductor</td><td></td></tr>
+    <tr><td>L3</td><td>1</td><td>6.8uH 47mO SWPA6028S6R8MT </td><td>Device:L</td><td>Inductor_SMD:L_Taiyo-Yuden_NR-60xx</td><td>Inductor</td><td></td></tr>
+    <tr><td>Q1, Q15, Q16, Q17, Q18, Q19, Q20, Q23, Q24, Q26, Q27</td><td>11</td><td>VBA2625</td><td>SmartBattery:VBA2625</td><td>SmartBattery:SOIC127P600X175-8N</td><td></td><td></td></tr>
+    <tr><td>Q2, Q7, Q14, Q21, Q25</td><td>5</td><td>2n7002K</td><td>Device:Q_NMOS_GSD</td><td>Package_TO_SOT_SMD:SOT-23</td><td>N-MOSFET transistor, gate/source/drain</td><td></td></tr>
+    <tr><td>Q3, Q4, Q5, Q6, Q8, Q9, Q10, Q11, Q12, Q13</td><td>10</td><td>AON7400A </td><td>SmartBattery:AO4468</td><td>lc_lib:QFN-8_3X3X065P</td><td>NMOS SOIC-8 30v20mO 10.5A</td><td></td></tr>
+    <tr><td>Q22</td><td>1</td><td>AO3401A</td><td>Device:Q_PMOS_GSD</td><td>lc_lib:SOT-23(SOT-23-3)</td><td>P-MOSFET transistor, gate/source/drain</td><td></td></tr>
+    <tr><td>R1, R60</td><td>2</td><td>0.01</td><td>Device:R_Small_US</td><td>lc_lib:2512_R</td><td>Resistor, small US symbol</td><td></td></tr>
+    <tr><td>R2, R36</td><td>2</td><td>4.7</td><td>Device:R_Small_US</td><td>lc_lib:0402_R</td><td>Resistor, small US symbol</td><td></td></tr>
+    <tr><td>R3, R4, R5, R6, R12</td><td>5</td><td>1k</td><td>Device:R_US</td><td>lc_lib:0402_R</td><td>Resistor, US symbol</td><td></td></tr>
+    <tr><td>R7, R8, R10</td><td>3</td><td>1 mOhm</td><td>Device:R_US</td><td>lc_lib:1206_R</td><td>Resistor, US symbol</td><td></td></tr>
+    <tr><td>R9</td><td>1</td><td>33k</td><td>Device:R_Small_US</td><td>lc_lib:0402_R</td><td>Resistor, small US symbol</td><td></td></tr>
+    <tr><td>R11, R13, R14, R15, R21, R25, R26</td><td>7</td><td>100</td><td>Device:R_US</td><td>lc_lib:0402_R</td><td>Resistor, US symbol</td><td></td></tr>
+    <tr><td>R16, R51</td><td>2</td><td>51k</td><td>Device:R_US</td><td>lc_lib:0402_R</td><td>Resistor, US symbol</td><td></td></tr>
+    <tr><td>R17, R22, R24, R27, R31, R32</td><td>6</td><td>5.1k</td><td>Device:R_US</td><td>lc_lib:0402_R</td><td>Resistor, US symbol</td><td></td></tr>
+    <tr><td>R18</td><td>1</td><td>10Meg</td><td>Device:R_US</td><td>lc_lib:0402_R</td><td>Resistor, US symbol</td><td></td></tr>
+    <tr><td>R19</td><td>1</td><td>DNP</td><td>Device:R_US</td><td>lc_lib:0402_R</td><td>Resistor, US symbol</td><td></td></tr>
+    <tr><td>R20</td><td>1</td><td>0</td><td>Device:R_US</td><td>lc_lib:0402_R</td><td>Resistor, US symbol</td><td></td></tr>
+    <tr><td>R23</td><td>1</td><td>0.001</td><td>Device:R_US</td><td>Resistor_SMD:R_1206_3216Metric</td><td>Resistor, US symbol</td><td></td></tr>
+    <tr><td>R28, R30</td><td>2</td><td>10k</td><td>Device:R_US</td><td>lc_lib:0402_R</td><td>Resistor, US symbol</td><td></td></tr>
+    <tr><td>R29</td><td>1</td><td>10M</td><td>Device:R_US</td><td>lc_lib:0402_R</td><td>Resistor, US symbol</td><td></td></tr>
+    <tr><td>R33, R37, R38, R39, R42, R43, R44, R49, R54, R55, R64, R77</td><td>12</td><td>0</td><td>Device:R_Small_US</td><td>lc_lib:0402_R</td><td>Resistor, small US symbol</td><td></td></tr>
+    <tr><td>R34</td><td>1</td><td>27k</td><td>Device:R_Small_US</td><td>lc_lib:0603_R</td><td>Resistor, small US symbol</td><td></td></tr>
+    <tr><td>R35</td><td>1</td><td>110k</td><td>Device:R_Small_US</td><td>lc_lib:0603_R</td><td>Resistor, small US symbol</td><td></td></tr>
+    <tr><td>R40</td><td>1</td><td>40.2k</td><td>Device:R_Small_US</td><td>lc_lib:0603_R</td><td>Resistor, small US symbol</td><td></td></tr>
+    <tr><td>R41</td><td>1</td><td>10k</td><td>Device:R_Small_US</td><td>lc_lib:0402_R</td><td>Resistor, small US symbol</td><td></td></tr>
+    <tr><td>R45</td><td>1</td><td>1</td><td>Device:R_Small_US</td><td>lc_lib:0402_R</td><td>Resistor, small US symbol</td><td></td></tr>
+    <tr><td>R46, R47, R48</td><td>3</td><td>10</td><td>Device:R_Small_US</td><td>lc_lib:0402_R</td><td>Resistor, small US symbol</td><td></td></tr>
+    <tr><td>R50</td><td>1</td><td>20k</td><td>Device:R_Small_US</td><td>lc_lib:0402_R</td><td>Resistor, small US symbol</td><td></td></tr>
+    <tr><td>R52</td><td>1</td><td>15k</td><td>Device:R_US</td><td>lc_lib:0402_R</td><td>Resistor, US symbol</td><td></td></tr>
+    <tr><td>R53, R57, R58</td><td>3</td><td>DNP</td><td>Device:R_Small_US</td><td>lc_lib:0402_R</td><td>Resistor, small US symbol</td><td></td></tr>
+    <tr><td>R56, R59</td><td>2</td><td>110k</td><td>Device:R_Small_US</td><td>lc_lib:0402_R</td><td>Resistor, small US symbol</td><td></td></tr>
+    <tr><td>R61, R74</td><td>2</td><td>??</td><td>Device:R_Small_US</td><td>lc_lib:0402_R</td><td>Resistor, small US symbol</td><td></td></tr>
+    <tr><td>R62, R63, R65, R69, R72, R73, R75, R76, R81, R83, R84, R85</td><td>12</td><td>100k</td><td>Device:R_Small_US</td><td>lc_lib:0402_R</td><td>Resistor, small US symbol</td><td></td></tr>
+    <tr><td>R66, R67, R68, R70, R71, R78, R79, R80, R82</td><td>9</td><td>5.1k</td><td>Device:R_Small_US</td><td>lc_lib:0402_R</td><td>Resistor, small US symbol</td><td></td></tr>
+    <tr><td>SW1, SW2</td><td>2</td><td>SW_Push</td><td>Switch:SW_Push</td><td>lc_lib:0402_R</td><td>Push button switch, generic, two pins</td><td></td></tr>
+    <tr><td>TH1</td><td>1</td><td>NCP18WF104F03</td><td>Device:Thermistor_PTC</td><td>Resistor_SMD:R_0805_2012Metric</td><td>Temperature dependent resistor, positive temperature coefficient</td><td></td></tr>
+    <tr><td>TH2, TH3, TH4, TH5</td><td>4</td><td>NXRT15WB473FA1B030</td><td>Device:Thermistor_PTC_US</td><td>Diode_THT:D_A-405_P2.54mm_Vertical_AnodeUp</td><td>Temperature dependent resistor, positive temperature coefficient, US symbol</td><td></td></tr>
+    <tr><td>U1</td><td>1</td><td>BQ25703ARSNR</td><td>SmartBattery:BQ25703ARSNR</td><td>lc_lib:VQFN-32_4X4X04P</td><td>1-4 cell buck-boost</td><td></td></tr>
+    <tr><td>U2</td><td>1</td><td>BQ294706DSGR</td><td>SmartBattery:BQ2947xx</td><td>Package_SON:WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm</td><td></td><td></td></tr>
+    <tr><td>U3</td><td>1</td><td>ITV4030</td><td>SmartBattery:ITV4030</td><td>SmartBattery:ITV4030</td><td></td><td></td></tr>
+    <tr><td>U4</td><td>1</td><td>BQ40Z50</td><td>SmartBattery:BQ40Z50</td><td>Package_DFN_QFN:QFN-32-1EP_4x4mm_P0.4mm_EP2.65x2.65mm</td><td></td><td></td></tr>
+    <tr><td>U5</td><td>1</td><td>LM5175PWPR</td><td>SmartBattery:LM5175PWPR</td><td>SmartBattery:IC_TPS61196PWPRQ1</td><td></td><td></td></tr>
+    <tr><td>U6</td><td>1</td><td>STM32F730R8T6</td><td>SmartBattery:STM32F730R8T6</td><td>lc_lib:TQFP-64_10X10X05P</td><td></td><td></td></tr>
+    <tr><td>U7</td><td>1</td><td>W25Q128JVSIQ</td><td>SmartBattery:W25Q128JVSIQ</td><td>lc_lib:SOP-8_208MIL</td><td></td><td></td></tr>
+    <tr><td>U8</td><td>1</td><td>LMR14030SDDAR</td><td>SmartBattery:LMR14030SDDAR</td><td>SmartBattery:NOPB</td><td></td><td></td></tr>
+    <tr><td>U9</td><td>1</td><td>FS35ND01G-S1Y2QWFI000</td><td>SmartBattery:FS35ND01G-S1Y2QWFI000</td><td>SmartBattery:WSON8_8x6mm</td><td></td><td></td></tr>
+    <tr><td>U10</td><td>1</td><td>ESP32-WROOM-32U</td><td>RF_Module:ESP32-WROOM-32U</td><td>RF_Module:ESP32-WROOM-32U</td><td>RF Module, ESP32-D0WD SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 2.7-3.6V, external antenna, SMD</td><td></td></tr>
+    <tr><td>U11</td><td>1</td><td>STUSB4500</td><td>SmartBattery:STUSB4500</td><td>Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.7x2.6mm</td><td></td><td></td></tr>
+    <tr><td>U12</td><td>1</td><td>STUSB4700</td><td>SmartBattery:STUSB4700</td><td>lc_lib:VQFN-32_4X4X04P</td><td></td><td></td></tr>
+    <tr><td>U13</td><td>1</td><td>TPS2511DGNR</td><td>SmartBattery:TPS2511DGNR</td><td>SmartBattery:SOP65P490X110-9N</td><td></td><td></td></tr>
+    <tr><td>U14</td><td>1</td><td>HT7533-1</td><td>SmartBattery:HT7533-1</td><td>lc_lib:SOT-89(SOT-89-3)</td><td></td><td></td></tr>
+    <tr><td>Y1</td><td>1</td><td>Q13FC1350000400</td><td>Device:Crystal</td><td>Crystal:Crystal_SMD_3215-2Pin_3.2x1.5mm</td><td>Two pin crystal</td><td></td></tr>
+    <tr><td>Y2</td><td>1</td><td>Crystal_GND24</td><td>Device:Crystal_GND24</td><td>Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm</td><td>Four pin crystal, GND on pins 2 and 4</td><td></td></tr><!--TABLEROW-->
+    </table>
+    </body>
+</html>
+    
