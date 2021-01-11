@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 9
+Sheet 6 10
 Title ""
 Date ""
 Rev ""
@@ -764,4 +764,54 @@ F 3 "" H 7100 3100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 7100 3100
+Wire Wire Line
+	4900 2700 5450 2700
+Text Label 4950 2700 0    50   ~ 0
+QUADSPI_CLK
+Wire Wire Line
+	2900 5100 1900 5100
+Wire Wire Line
+	2900 5200 1900 5200
+Text Label 2050 5100 0    50   ~ 0
+QUADSPI_BK1_IO1
+Text Label 2050 5200 0    50   ~ 0
+QUADSPI_BK2_NCS
+Wire Wire Line
+	4900 3100 5500 3100
+Text Label 4950 3100 0    50   ~ 0
+QUASPI_BK1_NCS
+Text Label 2050 5000 0    50   ~ 0
+QUADSPI_BK1_IO0
+Wire Wire Line
+	2900 5000 1900 5000
+$Comp
+L Switch:SW_Push SW?
+U 1 1 60355B81
+P 7950 5300
+AR Path="/5FD15753/60355B81" Ref="SW?"  Part="1" 
+AR Path="/5FF1D194/60355B81" Ref="SW3"  Part="1" 
+F 0 "SW3" H 7950 5585 50  0000 C CNN
+F 1 "SW_Push" H 7950 5494 50  0000 C CNN
+F 2 "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm" H 7950 5500 50  0001 C CNN
+F 3 "~" H 7950 5500 50  0001 C CNN
+F 4 "TS-1187A-C-G-B" H 7950 5300 50  0001 C CNN "SKU"
+F 5 "C318886" H 7950 5300 50  0001 C CNN "lcsc"
+	1    7950 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 60358A5F
+P 8500 5100
+AR Path="/5FD15753/60358A5F" Ref="SW?"  Part="1" 
+AR Path="/5FF1D194/60358A5F" Ref="SW4"  Part="1" 
+F 0 "SW4" H 8500 5385 50  0000 C CNN
+F 1 "SW_Push" H 8500 5294 50  0000 C CNN
+F 2 "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm" H 8500 5300 50  0001 C CNN
+F 3 "~" H 8500 5300 50  0001 C CNN
+F 4 "TS-1187A-C-G-B" H 8500 5100 50  0001 C CNN "SKU"
+F 5 "C318886" H 8500 5100 50  0001 C CNN "lcsc"
+	1    8500 5100
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
