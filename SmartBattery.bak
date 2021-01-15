@@ -451,10 +451,10 @@ F 3 "~" H 850 4850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x03_Male J?
+L Connector:Conn_01x03_Male J13
 U 1 1 604AF604
 P 5300 2300
-F 0 "J?" H 5408 2581 50  0000 C CNN
+F 0 "J13" H 5408 2581 50  0000 C CNN
 F 1 "Conn_01x03_Male" H 5408 2490 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 5300 2300 50  0001 C CNN
 F 3 "~" H 5300 2300 50  0001 C CNN
