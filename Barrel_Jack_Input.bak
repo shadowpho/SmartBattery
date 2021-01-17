@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 9 10
+Sheet 7 10
 Title ""
 Date ""
 Rev ""
@@ -14,22 +14,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L Connector:Barrel_Jack_MountingPin J?
-U 1 1 5FF4E84B
-P 3100 3150
-AR Path="/5FF4E84B" Ref="J?"  Part="1" 
-AR Path="/5FF4A13F/5FF4E84B" Ref="J3"  Part="1" 
-F 0 "J3" H 3157 3467 50  0000 C CNN
-F 1 "Barrel_Jack_MountingPin" H 3157 3376 50  0000 C CNN
-F 2 "Connector_BarrelJack:BarrelJack_Horizontal" H 3150 3110 50  0001 C CNN
-F 3 "~" H 3150 3110 50  0001 C CNN
-F 4 "320120003" H 3100 3150 50  0001 C CNN "SKU"
-	1    3100 3150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3100 3450 3400 3450
 $Comp
 L SmartBattery:VBA2625 Q?
 U 1 1 5FF4E857
@@ -202,7 +186,6 @@ F 3 "" H 3400 3450 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3400 3250 3400 3450
-Connection ~ 3400 3450
 $Comp
 L power:GND #PWR0200
 U 1 1 5FF76BD1
@@ -364,4 +347,19 @@ Wire Wire Line
 	5600 3050 5850 3050
 Text HLabel 5700 3600 2    50   Input ~ 0
 BARREL_RAW
+$Comp
+L SmartBattery:JACK-C-PC-10A-RA(R) J3
+U 1 1 6008EB42
+P 3200 3150
+F 0 "J3" H 3147 3526 50  0000 C CNN
+F 1 "JACK-C-PC-10A-RA(R)" H 3147 3435 50  0000 C CNN
+F 2 "GLOBTECK_JACK-C-PC-10A-RA(R)" H 3200 3150 50  0001 L BNN
+F 3 "" H 3200 3150 50  0001 L BNN
+F 4 "Manufacturer Recommendations" H 3200 3150 50  0001 L BNN "STANDARD"
+F 5 "Globe Tek" H 3200 3150 50  0001 L BNN "MANUFACTURER"
+F 6 "A" H 3200 3150 50  0001 L BNN "PARTREV"
+F 7 "C381108" H 3147 3344 50  0000 C CNN "LCSC"
+	1    3200 3150
+	-1   0    0    -1  
+$EndComp
 $EndSCHEMATC

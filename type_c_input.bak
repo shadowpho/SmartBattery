@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 10
+Sheet 10 10
 Title ""
 Date ""
 Rev ""
@@ -149,7 +149,7 @@ Wire Wire Line
 Wire Wire Line
 	3100 1800 3100 2250
 Wire Wire Line
-	3100 3450 3750 3450
+	3100 3450 3150 3450
 Wire Wire Line
 	4200 3350 3750 3350
 Wire Wire Line
@@ -883,4 +883,7 @@ F 4 "C25741" V 4050 3850 50  0001 C CNN "LCSC"
 	1    4050 3850
 	-1   0    0    1   
 $EndComp
+Connection ~ 3150 3450
+Wire Wire Line
+	3150 3450 3750 3450
 $EndSCHEMATC

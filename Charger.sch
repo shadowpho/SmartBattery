@@ -950,18 +950,6 @@ Wire Wire Line
 Wire Wire Line
 	3500 2550 3300 2550
 Connection ~ 3300 2550
-$Comp
-L SmartBattery:AO4468 Q8
-U 1 1 6038DB58
-P 4450 2050
-F 0 "Q8" V 4793 2050 50  0000 C CNN
-F 1 "AON7400A " V 4702 2050 50  0000 C CNN
-F 2 "lc_lib:QFN-8_3X3X065P" H 4650 2150 50  0001 C CNN
-F 3 "~" H 4450 2050 50  0001 C CNN
-F 4 "C85734" V 4450 2050 50  0001 C CNN "LCSC"
-	1    4450 2050
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3550 2350 3550 2200
 Wire Wire Line
@@ -1035,7 +1023,6 @@ Wire Wire Line
 	4550 2250 4450 2250
 Wire Wire Line
 	4450 2250 4450 2300
-Connection ~ 4550 2250
 Wire Wire Line
 	4250 2300 4200 2300
 Connection ~ 4200 2300
@@ -1055,11 +1042,6 @@ F 3 "~" H 4650 1850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 4450 1850
-Wire Wire Line
-	4450 1850 4550 1850
-Wire Wire Line
-	4550 1850 4850 1850
-Connection ~ 4550 1850
 Wire Wire Line
 	4300 2900 4300 2550
 Wire Wire Line
@@ -1847,4 +1829,25 @@ Wire Wire Line
 Connection ~ 5650 1850
 Wire Wire Line
 	5650 1850 6500 1850
+$Comp
+L SmartBattery:AON7400A Q?
+U 1 1 600EE040
+P 4450 2050
+AR Path="/5FD15753/600EE040" Ref="Q?"  Part="1" 
+AR Path="/5FD99B08/600EE040" Ref="Q8"  Part="1" 
+F 0 "Q8" V 4800 2200 50  0000 L CNN
+F 1 "AON7400A" V 4700 2000 50  0000 L CNN
+F 2 "lc_lib:SON-8_3.3X3.3MM" H 5100 2500 50  0001 C CNN
+F 3 "~" H 4450 2050 50  0001 C CNN
+F 4 "AON7400A" H 4656 2005 50  0001 L CNN "SKU"
+F 5 "C85734" H 4656 1914 50  0001 L CNN "LCSC"
+	1    4450 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4450 1850 4550 1850
+Connection ~ 4550 2250
+Connection ~ 4550 1850
+Wire Wire Line
+	4550 1850 4850 1850
 $EndSCHEMATC
