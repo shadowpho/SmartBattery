@@ -293,8 +293,6 @@ Wire Wire Line
 Wire Wire Line
 	3900 1800 3900 1500
 Connection ~ 3900 1500
-Wire Wire Line
-	3900 1500 4750 1500
 $Comp
 L Device:C_Small C98
 U 1 1 5FFEDDB8
@@ -756,63 +754,8 @@ Wire Wire Line
 Connection ~ 6300 3150
 Wire Wire Line
 	6300 3150 6700 3150
-$Comp
-L Device:R_Small_US R?
-U 1 1 60088C40
-P 4750 1400
-AR Path="/5FD99B08/60088C40" Ref="R?"  Part="1" 
-AR Path="/5FF1D194/60088C40" Ref="R?"  Part="1" 
-AR Path="/5FF971C1/60088C40" Ref="R63"  Part="1" 
-F 0 "R63" H 4500 1500 50  0000 L CNN
-F 1 "100k" H 4500 1400 50  0000 L CNN
-F 2 "lc_lib:0402_R" H 4750 1400 50  0001 C CNN
-F 3 "~" H 4750 1400 50  0001 C CNN
-F 4 "C25741" V 4750 1400 50  0001 C CNN "LCSC"
-	1    4750 1400
-	1    0    0    -1  
-$EndComp
-Connection ~ 4750 1500
-Wire Wire Line
-	4750 1500 4950 1500
-$Comp
-L Device:R_Small_US R?
-U 1 1 6008A123
-P 4750 950
-AR Path="/5FD99B08/6008A123" Ref="R?"  Part="1" 
-AR Path="/5FF1D194/6008A123" Ref="R?"  Part="1" 
-AR Path="/5FF971C1/6008A123" Ref="R62"  Part="1" 
-F 0 "R62" H 4550 850 50  0000 L CNN
-F 1 "100k" H 4500 950 50  0000 L CNN
-F 2 "lc_lib:0402_R" H 4750 950 50  0001 C CNN
-F 3 "~" H 4750 950 50  0001 C CNN
-F 4 "C25741" V 4750 950 50  0001 C CNN "LCSC"
-	1    4750 950 
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	4750 1300 4750 1200
-$Comp
-L power:GND #PWR0184
-U 1 1 6008D6DA
-P 4750 850
-F 0 "#PWR0184" H 4750 600 50  0001 C CNN
-F 1 "GND" H 4755 677 50  0000 C CNN
-F 2 "" H 4750 850 50  0001 C CNN
-F 3 "" H 4750 850 50  0001 C CNN
-	1    4750 850 
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	4750 1200 4850 1200
-Wire Wire Line
-	4850 1200 4850 1300
-Connection ~ 4750 1200
-Wire Wire Line
-	4750 1200 4750 1050
-Wire Wire Line
-	4850 1300 4900 1300
 Text HLabel 4900 1300 2    50   Input ~ 0
-INPUT_TYPEC_VBUS_DIV7
+INPUT_TYPEC_VBUS_RAW
 Text Label 6600 4100 0    50   ~ 0
 2v7_local
 $Comp
@@ -886,4 +829,13 @@ $EndComp
 Connection ~ 3150 3450
 Wire Wire Line
 	3150 3450 3750 3450
+Wire Wire Line
+	3900 1500 4700 1500
+Wire Wire Line
+	4900 1300 4700 1300
+Wire Wire Line
+	4700 1300 4700 1500
+Connection ~ 4700 1500
+Wire Wire Line
+	4700 1500 4950 1500
 $EndSCHEMATC

@@ -1,4 +1,4 @@
-(module ITV4030 (layer F.Cu) (tedit 5FDD4111)
+(module ITV4030 (layer F.Cu) (tedit 6004D37C)
   (fp_text reference REF** (at 0 -2.7) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -23,4 +23,9 @@
   (pad 1 smd rect (at 0.55 1.225) (size 2.4 1.55) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at -1.6 0) (size 1.2 1.6) (layers F.Cu F.Paste F.Mask))
   (pad 3 smd rect (at 0.55 -1.225) (size 2.4 1.55) (layers F.Cu F.Paste F.Mask))
+  (model ${KISYS3DMOD}/Inductor_SMD.3dshapes/L_Wuerth_MAPI-3020.step
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

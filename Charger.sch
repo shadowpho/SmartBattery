@@ -75,18 +75,6 @@ F 3 "~" H 7950 3650 50  0001 C CNN
 	1    7950 3650
 	0    -1   -1   0   
 $EndComp
-$Comp
-L Device:C_Small C16
-U 1 1 5FDC314F
-P 7950 2800
-F 0 "C16" H 8042 2846 50  0000 L CNN
-F 1 "220u" H 8042 2755 50  0000 L CNN
-F 2 "Capacitor_SMD:C_Elec_8x10.2" H 7950 2800 50  0001 C CNN
-F 3 "~" H 7950 2800 50  0001 C CNN
-F 4 "C311611" H 7950 2800 50  0001 C CNN "LCSC"
-	1    7950 2800
-	1    0    0    -1  
-$EndComp
 Text HLabel 8400 2500 2    50   BiDi ~ 0
 VSYS
 $Comp
@@ -1095,13 +1083,13 @@ Wire Wire Line
 $Comp
 L Device:C_Small C51
 U 1 1 6081E24F
-P 5600 2250
-F 0 "C51" H 5650 2300 50  0000 L CNN
-F 1 "150pF" H 5600 2200 50  0000 L CNN
-F 2 "lc_lib:0402_C" H 5600 2250 50  0001 C CNN
-F 3 "~" H 5600 2250 50  0001 C CNN
-F 4 "C1527" H 5600 2250 50  0001 C CNN "lcsc"
-	1    5600 2250
+P 5550 2350
+F 0 "C51" H 5600 2400 50  0000 L CNN
+F 1 "150pF" H 5550 2300 50  0000 L CNN
+F 2 "lc_lib:0402_C" H 5550 2350 50  0001 C CNN
+F 3 "~" H 5550 2350 50  0001 C CNN
+F 4 "C1527" H 5550 2350 50  0001 C CNN "lcsc"
+	1    5550 2350
 	0    1    1    0   
 $EndComp
 $Comp
@@ -1116,14 +1104,9 @@ F 3 "" H 5750 2250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5750 2250 5700 2250
-Wire Wire Line
-	5500 2250 5450 2250
-Wire Wire Line
 	5400 2250 5400 2050
 Wire Wire Line
 	5450 3100 5450 2850
-Connection ~ 5450 2250
 Wire Wire Line
 	5450 2250 5400 2250
 Wire Wire Line
@@ -1148,7 +1131,7 @@ F 3 "~" H 5450 2750 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	5450 2650 5450 2250
+	5450 2650 5450 2350
 $Comp
 L Device:R_Small_US R54
 U 1 1 6086EDD3
@@ -1254,18 +1237,6 @@ F 4 "C45783" H 7700 2800 50  0001 C CNN "LCSC"
 	1    7700 2800
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:C_Small C89
-U 1 1 60904FCD
-P 8300 2800
-F 0 "C89" H 8392 2846 50  0000 L CNN
-F 1 "220u" H 8392 2755 50  0000 L CNN
-F 2 "Capacitor_SMD:C_Elec_8x10.2" H 8300 2800 50  0001 C CNN
-F 3 "~" H 8300 2800 50  0001 C CNN
-F 4 "C311611" H 8300 2800 50  0001 C CNN "LCSC"
-	1    8300 2800
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6800 2900 6950 2900
 Connection ~ 6950 2900
@@ -1283,9 +1254,6 @@ Wire Wire Line
 Connection ~ 7700 2900
 Wire Wire Line
 	7700 2900 7800 2900
-Connection ~ 7950 2900
-Wire Wire Line
-	7950 2900 8300 2900
 Wire Wire Line
 	7250 2700 7400 2700
 Connection ~ 7250 2700
@@ -1293,11 +1261,6 @@ Connection ~ 7400 2700
 Wire Wire Line
 	7400 2700 7500 2700
 Connection ~ 7700 2700
-Wire Wire Line
-	7700 2700 7950 2700
-Connection ~ 7950 2700
-Wire Wire Line
-	7950 2700 8300 2700
 $Comp
 L power:GND #PWR0129
 U 1 1 6091905C
@@ -1310,8 +1273,6 @@ F 3 "" H 7800 2900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 7800 2900
-Wire Wire Line
-	7800 2900 7950 2900
 Connection ~ 7500 2700
 Wire Wire Line
 	7500 2700 7700 2700
@@ -1319,7 +1280,6 @@ Wire Wire Line
 	8300 2700 8300 2500
 Wire Wire Line
 	8300 2500 8400 2500
-Connection ~ 8300 2700
 Wire Wire Line
 	6800 3400 6550 3400
 Connection ~ 6500 3400
@@ -1850,4 +1810,73 @@ Connection ~ 4550 2250
 Connection ~ 4550 1850
 Wire Wire Line
 	4550 1850 4850 1850
+Wire Wire Line
+	2400 3550 2600 3550
+Connection ~ 2400 3550
+Wire Wire Line
+	2600 3750 2400 3750
+Connection ~ 2400 3750
+$Comp
+L Device:CP_Small C?
+U 1 1 600ECC91
+P 2600 3650
+AR Path="/60413DD6/600ECC91" Ref="C?"  Part="1" 
+AR Path="/5FD99B08/600ECC91" Ref="C147"  Part="1" 
+F 0 "C147" H 2500 3700 50  0000 R CNN
+F 1 "220u" H 2450 3600 50  0000 R CNN
+F 2 "Capacitor_SMD:C_Elec_8x10.2" H 2600 3650 50  0001 C CNN
+F 3 "~" H 2600 3650 50  0001 C CNN
+F 4 "C311611" H 2600 3650 50  0001 C CNN "LCSC"
+	1    2600 3650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:CP_Small C?
+U 1 1 600F8E33
+P 8000 2800
+AR Path="/60413DD6/600F8E33" Ref="C?"  Part="1" 
+AR Path="/5FD99B08/600F8E33" Ref="C16"  Part="1" 
+F 0 "C16" H 7900 2850 50  0000 R CNN
+F 1 "220u" H 7900 2750 50  0000 R CNN
+F 2 "Capacitor_SMD:C_Elec_8x10.2" H 8000 2800 50  0001 C CNN
+F 3 "~" H 8000 2800 50  0001 C CNN
+F 4 "C311611" H 8000 2800 50  0001 C CNN "LCSC"
+	1    8000 2800
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:CP_Small C?
+U 1 1 600FA944
+P 8300 2800
+AR Path="/60413DD6/600FA944" Ref="C?"  Part="1" 
+AR Path="/5FD99B08/600FA944" Ref="C89"  Part="1" 
+F 0 "C89" H 8200 2850 50  0000 R CNN
+F 1 "220u" H 8150 2750 50  0000 R CNN
+F 2 "Capacitor_SMD:C_Elec_8x10.2" H 8300 2800 50  0001 C CNN
+F 3 "~" H 8300 2800 50  0001 C CNN
+F 4 "C311611" H 8300 2800 50  0001 C CNN "LCSC"
+	1    8300 2800
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	7700 2700 8000 2700
+Wire Wire Line
+	7800 2900 8000 2900
+Connection ~ 8000 2700
+Wire Wire Line
+	8000 2700 8300 2700
+Connection ~ 8000 2900
+Wire Wire Line
+	8000 2900 8300 2900
+Connection ~ 8300 2700
+Wire Wire Line
+	5400 2050 5350 2050
+Connection ~ 5450 2350
+Wire Wire Line
+	5450 2350 5450 2250
+Wire Wire Line
+	5650 2250 5750 2250
+Connection ~ 5650 2250
+Wire Wire Line
+	5650 2250 5650 2350
 $EndSCHEMATC
