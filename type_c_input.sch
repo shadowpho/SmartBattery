@@ -285,7 +285,7 @@ F 4 "C11702" V 3900 1900 50  0001 C CNN "lcsc"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4950 1500 6150 1500
+	4950 1500 5800 1500
 Wire Wire Line
 	4200 3050 3900 3050
 Wire Wire Line
@@ -529,20 +529,6 @@ F 3 "" H 3150 1100 50  0001 C CNN
 	1    3150 1100
 	-1   0    0    1   
 $EndComp
-$Comp
-L Connector:TestPoint TP?
-U 1 1 600450A4
-P 5850 2650
-AR Path="/5FD15753/600450A4" Ref="TP?"  Part="1" 
-AR Path="/5FD99B08/600450A4" Ref="TP?"  Part="1" 
-AR Path="/5FF971C1/600450A4" Ref="TP32"  Part="1" 
-F 0 "TP32" H 5900 2850 50  0000 R CNN
-F 1 "TestPoint" H 5300 2700 50  0001 R CNN
-F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 6050 2650 50  0001 C CNN
-F 3 "~" H 6050 2650 50  0001 C CNN
-	1    5850 2650
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	5850 2800 6650 2800
 Wire Wire Line
@@ -756,27 +742,6 @@ Wire Wire Line
 	6300 3150 6700 3150
 Text HLabel 4900 1300 2    50   Input ~ 0
 INPUT_TYPEC_VBUS_RAW
-Text Label 6600 4100 0    50   ~ 0
-2v7_local
-$Comp
-L Device:R_Small_US R?
-U 1 1 6009A960
-P 6700 4300
-AR Path="/5FD99B08/6009A960" Ref="R?"  Part="1" 
-AR Path="/5FF1D194/6009A960" Ref="R?"  Part="1" 
-AR Path="/5FF971C1/6009A960" Ref="R71"  Part="1" 
-F 0 "R71" V 6650 4150 50  0000 L CNN
-F 1 "5.1k" V 6650 4300 50  0000 L CNN
-F 2 "lc_lib:0402_R" H 6700 4300 50  0001 C CNN
-F 3 "~" H 6700 4300 50  0001 C CNN
-F 4 "C25905" V 6700 4300 50  0001 C CNN "lcsc"
-	1    6700 4300
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	6600 4300 6600 4100
-Text HLabel 6800 4300 2    50   Input ~ 0
-INPUT_TYPEC_AWAKE
 $Comp
 L Device:R_Small_US R?
 U 1 1 600A706E
@@ -838,4 +803,79 @@ Wire Wire Line
 Connection ~ 4700 1500
 Wire Wire Line
 	4700 1500 4950 1500
+$Comp
+L Device:Q_NMOS_GSD Q?
+U 1 1 60213422
+P 5900 1800
+AR Path="/5FD15753/60213422" Ref="Q?"  Part="1" 
+AR Path="/600C8F88/60213422" Ref="Q?"  Part="1" 
+AR Path="/5FF971C1/60213422" Ref="Q30"  Part="1" 
+F 0 "Q30" H 6105 1754 50  0000 L CNN
+F 1 "2N7002" H 6105 1845 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 6100 1900 50  0001 C CNN
+F 3 "~" H 5900 1800 50  0001 C CNN
+F 4 "C8545" H 5900 1800 50  0001 C CNN "LCSC"
+	1    5900 1800
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 60213428
+P 5800 2100
+AR Path="/5FD99B08/60213428" Ref="R?"  Part="1" 
+AR Path="/5FF1D194/60213428" Ref="R?"  Part="1" 
+AR Path="/600C8F88/60213428" Ref="R?"  Part="1" 
+AR Path="/5FF971C1/60213428" Ref="R114"  Part="1" 
+F 0 "R114" V 5750 1950 50  0000 L CNN
+F 1 "1k" V 5750 2200 50  0000 L CNN
+F 2 "lc_lib:0402_R" H 5800 2100 50  0001 C CNN
+F 3 "~" H 5800 2100 50  0001 C CNN
+	1    5800 2100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 6021342E
+P 6100 1600
+AR Path="/5FD99B08/6021342E" Ref="R?"  Part="1" 
+AR Path="/5FF1D194/6021342E" Ref="R?"  Part="1" 
+AR Path="/600C8F88/6021342E" Ref="R?"  Part="1" 
+AR Path="/5FF971C1/6021342E" Ref="R115"  Part="1" 
+F 0 "R115" V 6050 1450 50  0000 L CNN
+F 1 "10k" V 6050 1700 50  0000 L CNN
+F 2 "lc_lib:0402_R" H 6100 1600 50  0001 C CNN
+F 3 "~" H 6100 1600 50  0001 C CNN
+	1    6100 1600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5800 1600 5800 1500
+Wire Wire Line
+	6100 1700 6100 1800
+$Comp
+L power:GND #PWR0255
+U 1 1 60213436
+P 5800 2200
+AR Path="/5FF971C1/60213436" Ref="#PWR0255"  Part="1" 
+AR Path="/600C8F88/60213436" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0255" H 5800 1950 50  0001 C CNN
+F 1 "GND" H 5805 2027 50  0000 C CNN
+F 2 "" H 5800 2200 50  0001 C CNN
+F 3 "" H 5800 2200 50  0001 C CNN
+	1    5800 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6300 1800 6100 1800
+Connection ~ 6100 1800
+Connection ~ 5800 1500
+Wire Wire Line
+	5800 1500 6100 1500
+Connection ~ 6100 1500
+Wire Wire Line
+	6100 1500 6150 1500
+Wire Wire Line
+	5850 2650 6300 2650
+Wire Wire Line
+	6300 2650 6300 1800
 $EndSCHEMATC

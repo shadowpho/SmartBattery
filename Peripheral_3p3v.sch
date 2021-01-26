@@ -56,7 +56,7 @@ $EndComp
 Wire Wire Line
 	4400 2250 4450 2250
 Wire Wire Line
-	4450 2250 4450 2450
+	4450 2250 4450 2350
 Wire Wire Line
 	4400 2150 4450 2150
 Wire Wire Line
@@ -549,7 +549,7 @@ $EndComp
 Wire Wire Line
 	4400 4200 4450 4200
 Wire Wire Line
-	4450 4200 4450 4400
+	4450 4200 4450 4300
 Wire Wire Line
 	4400 4100 4450 4100
 Wire Wire Line
@@ -999,4 +999,14 @@ Wire Wire Line
 	4850 3650 5050 3650
 Text HLabel 2600 3750 0    50   Output ~ 0
 5v_EN
+Wire Wire Line
+	4300 2350 4450 2350
+Connection ~ 4450 2350
+Wire Wire Line
+	4450 2350 4450 2450
+Wire Wire Line
+	4300 4300 4450 4300
+Connection ~ 4450 4300
+Wire Wire Line
+	4450 4300 4450 4400
 $EndSCHEMATC
