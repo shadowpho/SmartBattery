@@ -1963,4 +1963,6 @@ Wire Wire Line
 Wire Wire Line
 	4950 5500 4950 5400
 Connection ~ 5050 5500
+Text HLabel 8800 1000 2    50   Output ~ 0
+VOLTAGE_CONTROL
 $EndSCHEMATC

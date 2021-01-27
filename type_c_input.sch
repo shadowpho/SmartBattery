@@ -587,8 +587,6 @@ Wire Wire Line
 Wire Wire Line
 	5950 3750 6650 3750
 Connection ~ 5950 3750
-Text HLabel 6650 3750 2    50   Input ~ 0
-INPUT_TYPEC_RST
 Text HLabel 6650 3550 2    50   Input ~ 0
 INPUT_TYPEC_SDA
 Text HLabel 6650 3450 2    50   Input ~ 0
@@ -878,4 +876,18 @@ Wire Wire Line
 	5850 2650 6300 2650
 Wire Wire Line
 	6300 2650 6300 1800
+$Comp
+L Connector:TestPoint TP?
+U 1 1 60264D92
+P 6650 3750
+AR Path="/5FD15753/60264D92" Ref="TP?"  Part="1" 
+AR Path="/5FD99B08/60264D92" Ref="TP?"  Part="1" 
+AR Path="/5FF971C1/60264D92" Ref="TP65"  Part="1" 
+F 0 "TP65" H 6700 3950 50  0000 R CNN
+F 1 "TestPoint" H 6100 3800 50  0001 R CNN
+F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 6850 3750 50  0001 C CNN
+F 3 "~" H 6850 3750 50  0001 C CNN
+	1    6650 3750
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC

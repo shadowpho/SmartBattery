@@ -112,7 +112,7 @@ P 5100 3200
 AR Path="/5FF971C1/5FF697F8" Ref="C?"  Part="1" 
 AR Path="/5FF4A13F/5FF697F8" Ref="C115"  Part="1" 
 F 0 "C115" H 5192 3246 50  0000 L CNN
-F 1 "1uF 25v" H 5192 3155 50  0000 L CNN
+F 1 "1uF 50v" H 5192 3155 50  0000 L CNN
 F 2 "lc_lib:0402_C" H 5100 3200 50  0001 C CNN
 F 3 "~" H 5100 3200 50  0001 C CNN
 F 4 "C52923" H 5100 3200 50  0001 C CNN "lcsc"
@@ -129,7 +129,7 @@ P 4950 3200
 AR Path="/5FF971C1/5FF69802" Ref="C?"  Part="1" 
 AR Path="/5FF4A13F/5FF69802" Ref="C114"  Part="1" 
 F 0 "C114" H 5042 3246 50  0000 L CNN
-F 1 "1uF 25v" H 5042 3155 50  0000 L CNN
+F 1 "1uF 50v" H 5042 3155 50  0000 L CNN
 F 2 "lc_lib:0402_C" H 4950 3200 50  0001 C CNN
 F 3 "~" H 4950 3200 50  0001 C CNN
 F 4 "C52923" H 4950 3200 50  0001 C CNN "lcsc"
@@ -137,29 +137,10 @@ F 4 "C52923" H 4950 3200 50  0001 C CNN "lcsc"
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	4250 3050 4550 3050
-Wire Wire Line
 	4950 3050 4950 3100
 Connection ~ 4950 3050
 Wire Wire Line
 	4950 3050 5100 3050
-$Comp
-L pspice:DIODE D?
-U 1 1 5FF6980D
-P 4550 2850
-AR Path="/5FF971C1/5FF6980D" Ref="D?"  Part="1" 
-AR Path="/5FF4A13F/5FF6980D" Ref="D15"  Part="1" 
-F 0 "D15" V 4504 2978 50  0000 L CNN
-F 1 "PESD24VS1UB-N" V 4595 2978 50  0000 L CNN
-F 2 "lc_lib:SOD-523" H 4550 2850 50  0001 C CNN
-F 3 "~" H 4550 2850 50  0001 C CNN
-F 4 "C316036" V 4550 2850 50  0001 C CNN "lcsc"
-	1    4550 2850
-	0    1    1    0   
-$EndComp
-Connection ~ 4550 3050
-Wire Wire Line
-	4550 3050 4950 3050
 $Comp
 L power:GND #PWR?
 U 1 1 5FF69815
@@ -316,7 +297,7 @@ F 3 "" H 6700 4300 50  0001 C CNN
 $EndComp
 Text HLabel 8450 3050 2    50   Input ~ 0
 BARREL_OUTPUT_V
-Text HLabel 7000 4100 2    50   Input ~ 0
+Text HLabel 7250 4100 2    50   Input ~ 0
 BARREL_ENABLE
 Wire Wire Line
 	5100 3050 5600 3050
@@ -362,4 +343,59 @@ F 7 "C381108" H 3147 3344 50  0000 C CNN "LCSC"
 	1    3200 3150
 	-1   0    0    -1  
 $EndComp
+Wire Wire Line
+	7250 4100 7100 4100
+$Comp
+L Power_Protection:SP0502BAJT D?
+U 1 1 602F31F8
+P 4550 2850
+AR Path="/600C8F88/602F31F8" Ref="D?"  Part="1" 
+AR Path="/5FF4A13F/602F31F8" Ref="D15"  Part="1" 
+F 0 "D15" H 4345 2804 50  0000 R CNN
+F 1 "NUP3105LT1G" H 4345 2895 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4775 2800 50  0001 L CNN
+F 3 "http://www.littelfuse.com/~/media/files/littelfuse/technical%20resources/documents/data%20sheets/sp05xxba.pdf" H 4675 2975 50  0001 C CNN
+F 4 "C133092" H 4550 2850 50  0001 C CNN "LCSC"
+	1    4550 2850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4250 3050 4450 3050
+Wire Wire Line
+	4650 3050 4950 3050
+Wire Wire Line
+	4450 3050 4650 3050
+Connection ~ 4450 3050
+Connection ~ 4650 3050
+$Comp
+L Device:R_Small_US R?
+U 1 1 602FB01A
+P 7100 4200
+AR Path="/5FD99B08/602FB01A" Ref="R?"  Part="1" 
+AR Path="/5FF1D194/602FB01A" Ref="R?"  Part="1" 
+AR Path="/5FF971C1/602FB01A" Ref="R?"  Part="1" 
+AR Path="/602FB01A" Ref="R?"  Part="1" 
+AR Path="/5FF4A13F/602FB01A" Ref="R116"  Part="1" 
+F 0 "R116" H 6900 4100 50  0000 L CNN
+F 1 "100k" H 6850 4200 50  0000 L CNN
+F 2 "lc_lib:0402_R" H 7100 4200 50  0001 C CNN
+F 3 "~" H 7100 4200 50  0001 C CNN
+F 4 "C25741" V 7100 4200 50  0001 C CNN "LCSC"
+	1    7100 4200
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0256
+U 1 1 602FB7DC
+P 7100 4300
+F 0 "#PWR0256" H 7100 4050 50  0001 C CNN
+F 1 "GND" H 7105 4127 50  0000 C CNN
+F 2 "" H 7100 4300 50  0001 C CNN
+F 3 "" H 7100 4300 50  0001 C CNN
+	1    7100 4300
+	1    0    0    -1  
+$EndComp
+Connection ~ 7100 4100
+Wire Wire Line
+	7100 4100 7000 4100
 $EndSCHEMATC
