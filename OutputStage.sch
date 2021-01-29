@@ -281,71 +281,8 @@ $EndComp
 Wire Wire Line
 	2250 1150 2550 1150
 Connection ~ 2250 1150
-$Comp
-L Device:R_Small_US R?
-U 1 1 5FFCD88F
-P 2700 1250
-AR Path="/5FD99B08/5FFCD88F" Ref="R?"  Part="1" 
-AR Path="/60413DD6/5FFCD88F" Ref="R87"  Part="1" 
-F 0 "R87" H 2500 1400 50  0000 L CNN
-F 1 "??" H 2600 1250 50  0000 L CNN
-F 2 "lc_lib:0402_R" H 2700 1250 50  0001 C CNN
-F 3 "~" H 2700 1250 50  0001 C CNN
-F 4 "C25086" H 2700 1250 50  0001 C CNN "lcsc"
-	1    2700 1250
-	-1   0    0    1   
-$EndComp
-Connection ~ 2700 1150
-Wire Wire Line
-	2700 1150 3050 1150
-$Comp
-L Device:R_Small_US R?
-U 1 1 5FFCECFC
-P 2700 1450
-AR Path="/5FD99B08/5FFCECFC" Ref="R?"  Part="1" 
-AR Path="/60413DD6/5FFCECFC" Ref="R88"  Part="1" 
-F 0 "R88" H 2500 1600 50  0000 L CNN
-F 1 "??" H 2600 1450 50  0000 L CNN
-F 2 "lc_lib:0402_R" H 2700 1450 50  0001 C CNN
-F 3 "~" H 2700 1450 50  0001 C CNN
-F 4 "C25086" H 2700 1450 50  0001 C CNN "lcsc"
-	1    2700 1450
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:GND #PWR0202
-U 1 1 5FFCF18A
-P 2700 1550
-F 0 "#PWR0202" H 2700 1300 50  0001 C CNN
-F 1 "GND" H 2705 1377 50  0000 C CNN
-F 2 "" H 2700 1550 50  0001 C CNN
-F 3 "" H 2700 1550 50  0001 C CNN
-	1    2700 1550
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4300 2200 2850 2200
-Wire Wire Line
-	2850 2200 2850 1350
-Wire Wire Line
-	2850 1350 2700 1350
-Connection ~ 2700 1350
-$Comp
-L Device:R_Small_US R?
-U 1 1 5FFCFE0F
-P 3050 1250
-AR Path="/5FD99B08/5FFCFE0F" Ref="R?"  Part="1" 
-AR Path="/60413DD6/5FFCFE0F" Ref="R89"  Part="1" 
-F 0 "R89" H 2850 1400 50  0000 L CNN
-F 1 "??" H 2950 1250 50  0000 L CNN
-F 2 "lc_lib:0402_R" H 3050 1250 50  0001 C CNN
-F 3 "~" H 3050 1250 50  0001 C CNN
-F 4 "C25086" H 3050 1250 50  0001 C CNN "lcsc"
-	1    3050 1250
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	3050 1350 3050 2100
 Wire Wire Line
 	3050 2100 4300 2100
 $Comp
@@ -434,9 +371,6 @@ Wire Wire Line
 	6700 1400 6250 1400
 Wire Wire Line
 	4950 1400 4350 1400
-Wire Wire Line
-	3050 1150 3450 1150
-Connection ~ 3050 1150
 Connection ~ 3450 1150
 Wire Wire Line
 	3450 1150 3750 1150
@@ -714,7 +648,7 @@ P 8300 700
 AR Path="/5FD99B08/600521FF" Ref="R?"  Part="1" 
 AR Path="/60413DD6/600521FF" Ref="R99"  Part="1" 
 F 0 "R99" H 8100 850 50  0000 L CNN
-F 1 "??" H 8200 700 50  0000 L CNN
+F 1 "280k" H 8200 700 50  0000 L CNN
 F 2 "lc_lib:0402_R" H 8300 700 50  0001 C CNN
 F 3 "~" H 8300 700 50  0001 C CNN
 F 4 "" H 8300 700 50  0001 C CNN "lcsc"
@@ -728,7 +662,7 @@ P 8300 1000
 AR Path="/5FD99B08/60053448" Ref="R?"  Part="1" 
 AR Path="/60413DD6/60053448" Ref="R100"  Part="1" 
 F 0 "R100" H 8100 1150 50  0000 L CNN
-F 1 "??" H 8200 1000 50  0000 L CNN
+F 1 "20k" H 8200 1000 50  0000 L CNN
 F 2 "lc_lib:0402_R" H 8300 1000 50  0001 C CNN
 F 3 "~" H 8300 1000 50  0001 C CNN
 F 4 "" H 8300 1000 50  0001 C CNN "lcsc"
@@ -1121,7 +1055,7 @@ Connection ~ 2950 2800
 Wire Wire Line
 	8800 1000 8800 850 
 Wire Wire Line
-	8800 850  8300 850 
+	8800 850  8750 850 
 $Comp
 L SmartBattery:AON7400A Q?
 U 1 1 6008062D
@@ -1877,8 +1811,6 @@ Wire Wire Line
 Wire Wire Line
 	2550 1500 1950 1500
 Connection ~ 2550 1150
-Wire Wire Line
-	2550 1150 2700 1150
 Connection ~ 1950 1500
 $Comp
 L power:GND #PWR0250
@@ -1957,7 +1889,7 @@ Connection ~ 1050 1700
 Wire Wire Line
 	1050 1700 900  1700
 Wire Wire Line
-	7000 550  8150 550 
+	7000 550  7800 550 
 Wire Wire Line
 	5050 5500 4950 5500
 Wire Wire Line
@@ -1965,4 +1897,77 @@ Wire Wire Line
 Connection ~ 5050 5500
 Text HLabel 8800 1000 2    50   Output ~ 0
 VOLTAGE_CONTROL
+Wire Wire Line
+	2550 1150 3050 1150
+Wire Wire Line
+	3050 1150 3050 2100
+Connection ~ 3050 1150
+Wire Wire Line
+	3050 1150 3450 1150
+Text HLabel 2850 2200 0    50   Output ~ 0
+ENABLE
+$Comp
+L Device:Q_NMOS_GSD Q?
+U 1 1 60182DF6
+P 7700 1300
+AR Path="/5FD15753/60182DF6" Ref="Q?"  Part="1" 
+AR Path="/600C8F88/60182DF6" Ref="Q?"  Part="1" 
+AR Path="/5FF971C1/60182DF6" Ref="Q?"  Part="1" 
+AR Path="/60413DD6/60182DF6" Ref="Q32"  Part="1" 
+F 0 "Q32" H 7905 1254 50  0000 L CNN
+F 1 "2N7002" H 7905 1345 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 7900 1400 50  0001 C CNN
+F 3 "~" H 7700 1300 50  0001 C CNN
+F 4 "C8545" H 7700 1300 50  0001 C CNN "LCSC"
+	1    7700 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7800 900  7800 550 
+Connection ~ 7800 550 
+Wire Wire Line
+	7800 550  8150 550 
+$Comp
+L power:GND #PWR0202
+U 1 1 601B44C1
+P 7800 1500
+F 0 "#PWR0202" H 7800 1250 50  0001 C CNN
+F 1 "GND" H 7805 1327 50  0000 C CNN
+F 2 "" H 7800 1500 50  0001 C CNN
+F 3 "" H 7800 1500 50  0001 C CNN
+	1    7800 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 601B4BA2
+P 7800 1000
+AR Path="/5FD99B08/601B4BA2" Ref="R?"  Part="1" 
+AR Path="/60413DD6/601B4BA2" Ref="R87"  Part="1" 
+F 0 "R87" H 7700 900 50  0000 L CNN
+F 1 "??" H 7700 1000 50  0000 L CNN
+F 2 "lc_lib:0402_R" H 7800 1000 50  0001 C CNN
+F 3 "~" H 7800 1000 50  0001 C CNN
+F 4 "C25086" H 7800 1000 50  0001 C CNN "lcsc"
+	1    7800 1000
+	-1   0    0    1   
+$EndComp
+Text HLabel 7500 1300 0    50   Output ~ 0
+VSYS_DISCH
+$Comp
+L Device:R_Small_US R?
+U 1 1 60285F33
+P 8650 850
+AR Path="/5FD99B08/60285F33" Ref="R?"  Part="1" 
+AR Path="/60413DD6/60285F33" Ref="R123"  Part="1" 
+F 0 "R123" H 8450 1000 50  0000 L CNN
+F 1 "50k" H 8550 850 50  0000 L CNN
+F 2 "lc_lib:0402_R" H 8650 850 50  0001 C CNN
+F 3 "~" H 8650 850 50  0001 C CNN
+F 4 "" H 8650 850 50  0001 C CNN "lcsc"
+	1    8650 850 
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8550 850  8300 850 
 $EndSCHEMATC

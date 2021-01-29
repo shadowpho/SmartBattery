@@ -1866,4 +1866,18 @@ F 4 " C719495" H 6075 4533 50  0000 C CNN "LCSC"
 	1    6000 4200
 	1    0    0    -1  
 $EndComp
+Text HLabel 900  3200 0    50   Input ~ 0
+ADC1_IN10
+Text HLabel 900  3300 0    50   Input ~ 0
+ADC1_IN11
+Text HLabel 900  3400 0    50   Input ~ 0
+ADC1_IN12
+Text HLabel 900  3500 0    50   Input ~ 0
+ADC1_IN13
+Text HLabel 900  3600 0    50   Input ~ 0
+ADC1_IN14
+Text Label 3950 1600 0    50   ~ 0
+ADC1_IN9
+Text HLabel 4650 1600 2    50   Input ~ 0
+ADC1_IN9
 $EndSCHEMATC
